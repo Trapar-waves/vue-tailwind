@@ -1,8 +1,31 @@
 {
-  "name": "vue-tailwind",
+  "name": "@trapar-waves/vue-tailwind",
   "type": "module",
   "version": "1.0.0",
-  "private": true,
+  "author": {
+    "email": "admin@rikka.cc",
+    "name": "Rikka",
+    "url": "https://github.com/Muromi-Rikka"
+  },
+  "homepage": "https://github.com/Trapar-waves/vue-tailwind",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trapar-waves/vue-tailwind.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Trapar-waves/vue-tailwind/issues"
+  },
+  "keywords": [
+    "react",
+    "fiber",
+    "maplibre",
+    "three",
+    "vis.gl",
+    "deck.gl"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "rsbuild build",
     "dev": "rsbuild dev --open",
