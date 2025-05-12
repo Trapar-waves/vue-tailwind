@@ -18,6 +18,12 @@ importers:
       '@antfu/eslint-config':
         specifier: ^4.13.0
         version: 4.13.0(@typescript-eslint/utils@8.32.0(eslint@9.26.0(jiti@2.4.2))(typescript@5.8.3))(@vue/compiler-sfc@3.5.13)(eslint-plugin-format@1.0.1(eslint@9.26.0(jiti@2.4.2)))(eslint@9.26.0(jiti@2.4.2))(typescript@5.8.3)
+      '@iconify/json':
+        specifier: ^2.2.337
+        version: 2.2.337
+      '@iconify/tailwind4':
+        specifier: ^1.0.6
+        version: 1.0.6(tailwindcss@4.1.5)
       '@rsbuild/core':
         specifier: ^1.3.15
         version: 1.3.18
@@ -97,6 +103,9 @@ packages:
 
   '@antfu/install-pkg@1.1.0':
     resolution: {integrity: sha512-MGQsmw10ZyI+EJo45CdSER4zEb+p31LpDAFp2Z3gkSd1yqVZGi0Ebx++YTEMonJy4oChEMLsxZ64j8FH6sSqtQ==}
+
+  '@antfu/utils@8.1.1':
+    resolution: {integrity: sha512-Mex9nXf9vR6AhcXmMrlz/HVgYYZpVGJ6YlPgwl7UnaFpnshXs6EK/oa5Gpf3CzENMjkvEx2tQtntGnb7UtSTOQ==}
 
   '@babel/helper-string-parser@7.27.1':
     resolution: {integrity: sha512-qMlSxKbpRlAridDExk92nSobyDdpPijUq2DW6oDnUqd0iOGxmQjyqhMIihI9+zv4LPyZdRje2cavWPbCbWm3eA==}
@@ -227,6 +236,20 @@ packages:
   '@humanwhocodes/retry@0.4.3':
     resolution: {integrity: sha512-bV0Tgo9K4hfPCek+aMAn81RppFKv2ySDQeMoSZuvTASywNTnVJCArCZE2FWqpvIatKu7VMRLWlR1EazvVhDyhQ==}
     engines: {node: '>=18.18'}
+
+  '@iconify/json@2.2.337':
+    resolution: {integrity: sha512-+Z4wwoHHhqebbQ4v+s9GJ2fxS82zWd79SnjXlg4B4WCXTMdV2sXmNXs6P7NzfzbZugITwK6rPeyr6cgoH/bHmw==}
+
+  '@iconify/tailwind4@1.0.6':
+    resolution: {integrity: sha512-43ZXe+bC7CuE2LCgROdqbQeFYJi/J7L/k1UpSy8KDQlWVsWxPzLSWbWhlJx4uRYLOh1NRyw02YlDOgzBOFNd+A==}
+    peerDependencies:
+      tailwindcss: '>= 4'
+
+  '@iconify/types@2.0.0':
+    resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
+
+  '@iconify/utils@2.3.0':
+    resolution: {integrity: sha512-GmQ78prtwYW6EtzXRU1rY+KwOKfz32PD7iJh6Iyqw68GiKuoZ2A6pRtzWONz5VQJbp50mEjXh/7NkumtrAgRKA==}
 
   '@jridgewell/gen-mapping@0.3.8':
     resolution: {integrity: sha512-imAbBGkb+ebQyxKgzv5Hu2nmROxoDOXHh80evxdoXNOrvAnVx7zimzc1Oo5h9RlfV4vPXaE2iM5pOFbvOCClWA==}
@@ -1491,6 +1514,9 @@ packages:
   keyv@4.5.4:
     resolution: {integrity: sha512-oxVHkHR/EJf2CNXnWxRLW6mg7JyCCUcG0DtEGmL2ctUo1PNTin1PUil+r/+4r5MpVgC/fn1kjsx7mjSujKqIpw==}
 
+  kolorist@1.8.0:
+    resolution: {integrity: sha512-Y+60/zizpJ3HRH8DCss+q95yr6145JXZo46OTpFvDZWLfRCE4qChOyk1b26nMaNpfHHgxagk9dXT5OP0Tfe+dQ==}
+
   levn@0.4.1:
     resolution: {integrity: sha512-+bT2uH4E5LGE7h/n3evcS/sQlJXCpIp6ym8OWJ5eV6+67Dsql/LaaT7qJBAt2rzfoa/5QBGBhxDix1dMt2kQKQ==}
     engines: {node: '>= 0.8.0'}
@@ -1861,6 +1887,9 @@ packages:
   path-to-regexp@8.2.0:
     resolution: {integrity: sha512-TdrF7fW9Rphjq4RjrW0Kp2AW0Ahwu9sRGTkS6bvDi0SCwZlEZYmcfDbEsTz8RVk0EHIS/Vd1bv3JhG+1xZuAyQ==}
     engines: {node: '>=16'}
+
+  pathe@1.1.2:
+    resolution: {integrity: sha512-whLdWMYL2TwI08hn8/ZqAbrVemu0LNaNNJZX73O6qaIdCTfXutsLhMkjdENX0qhsQ9uIimo4/aQOmXkoon2nDQ==}
 
   pathe@2.0.3:
     resolution: {integrity: sha512-WUjGcAqP1gQacoQe+OBJsFA7Ld4DyXuUIjZ5cc75cLHvJ7dtNsTugphxIADwspS+AraAUePCKrSVtPLFj/F88w==}
@@ -2353,6 +2382,8 @@ snapshots:
       package-manager-detector: 1.3.0
       tinyexec: 1.0.1
 
+  '@antfu/utils@8.1.1': {}
+
   '@babel/helper-string-parser@7.27.1': {}
 
   '@babel/helper-validator-identifier@7.27.1': {}
@@ -2496,6 +2527,34 @@ snapshots:
   '@humanwhocodes/retry@0.3.1': {}
 
   '@humanwhocodes/retry@0.4.3': {}
+
+  '@iconify/json@2.2.337':
+    dependencies:
+      '@iconify/types': 2.0.0
+      pathe: 1.1.2
+
+  '@iconify/tailwind4@1.0.6(tailwindcss@4.1.5)':
+    dependencies:
+      '@iconify/types': 2.0.0
+      '@iconify/utils': 2.3.0
+      tailwindcss: 4.1.5
+    transitivePeerDependencies:
+      - supports-color
+
+  '@iconify/types@2.0.0': {}
+
+  '@iconify/utils@2.3.0':
+    dependencies:
+      '@antfu/install-pkg': 1.1.0
+      '@antfu/utils': 8.1.1
+      '@iconify/types': 2.0.0
+      debug: 4.4.0
+      globals: 15.15.0
+      kolorist: 1.8.0
+      local-pkg: 1.1.1
+      mlly: 1.7.4
+    transitivePeerDependencies:
+      - supports-color
 
   '@jridgewell/gen-mapping@0.3.8':
     dependencies:
@@ -3860,6 +3919,8 @@ snapshots:
     dependencies:
       json-buffer: 3.0.1
 
+  kolorist@1.8.0: {}
+
   levn@0.4.1:
     dependencies:
       prelude-ls: 1.2.1
@@ -4365,6 +4426,8 @@ snapshots:
   path-parse@1.0.7: {}
 
   path-to-regexp@8.2.0: {}
+
+  pathe@1.1.2: {}
 
   pathe@2.0.3: {}
 

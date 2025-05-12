@@ -4,6 +4,7 @@
       Rsbuild with Vue
     </h1>
     <p>Start building amazing things with Rsbuild.</p>
+    <span class="icon-[mdi--user]" />
   </div>
 </template>
 
