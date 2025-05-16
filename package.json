@@ -17,12 +17,13 @@
     "url": "https://github.com/Trapar-waves/vue-tailwind/issues"
   },
   "keywords": [
-    "react",
-    "fiber",
-    "maplibre",
-    "three",
-    "vis.gl",
-    "deck.gl"
+    "vue",
+    "vue3",
+    "tailwindcss",
+    "typescript",
+    "rsbuild",
+    "eslint",
+    "iconify"
   ],
   "publishConfig": {
     "access": "public"
