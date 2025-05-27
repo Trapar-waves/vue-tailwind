@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "@vueuse/core": "^13.2.0",
-    "vue": "^3.5.14"
+    "vue": "^3.5.15"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.13.2",
