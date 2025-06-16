@@ -5,10 +5,13 @@ export default antfu({
     quotes: "double",
     semi: true,
   },
+  markdown: true,
   vue: true,
+  yaml: true,
   jsonc: true,
   typescript: true,
   formatters: {
+    markdown: "prettier",
     css: "prettier",
   },
 });
