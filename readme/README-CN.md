@@ -85,6 +85,6 @@ pnpm install
 
 ## 🔗 Links
 
-- **仓库:** [https://github.com/vue-tailwind/Trapar-waves](https://github.com/vue-tailwind/Trapar-waves)
-- **主页:** [https://github.com/vue-tailwind/Trapar-waves](https://github.com/vue-tailwind/Trapar-waves)
-- **问题:** [https://github.com/vue-tailwind/Trapar-waves/issues](https://github.com/vue-tailwind/Trapar-waves/issues)
+- **仓库:** [https://github.com/Trapar-waves/vue-tailwind](https://github.com/Trapar-waves/vue-tailwind)
+- **主页:** [https://github.com/Trapar-waves/vue-tailwind](https://github.com/Trapar-waves/vue-tailwind)
+- **问题:** [https://github.com/Trapar-waves/vue-tailwind/issues](https://github.com/Trapar-waves/vue-tailwind/issues)
