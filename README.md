@@ -85,6 +85,6 @@ Contributions are welcome and greatly appreciated! Please follow these steps to 
 
 ## 🔗 Links
 
-- **Repository:** [https://github.com/vue-tailwind/Trapar-waves](https://github.com/vue-tailwind/Trapar-waves)
-- **Homepage:** [https://github.com/vue-tailwind/Trapar-waves](https://github.com/vue-tailwind/Trapar-waves)
-- **Issues:** [https://github.com/vue-tailwind/Trapar-waves/issues](https://github.com/vue-tailwind/Trapar-waves/issues)
+- **Repository:** [https://github.com/Trapar-waves/vue-tailwind](https://github.com/Trapar-waves/vue-tailwind)
+- **Homepage:** [https://github.com/Trapar-waves/vue-tailwind](https://github.com/Trapar-waves/vue-tailwind)
+- **Issues:** [https://github.com/Trapar-waves/vue-tailwind/issues](https://github.com/Trapar-waves/vue-tailwind/issues)
