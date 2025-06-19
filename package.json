@@ -32,7 +32,9 @@
   "scripts": {
     "build": "rsbuild build",
     "dev": "rsbuild dev --open",
-    "preview": "rsbuild preview"
+    "preview": "rsbuild preview",
+    "lint": "eslint . --cache --max-warnings=0 --no-warn-ignored",
+    "prepare": "husky"
   },
   "dependencies": {
     "@vueuse/core": "^13.3.0",
@@ -47,6 +49,8 @@
     "@tailwindcss/postcss": "^4.1.10",
     "eslint": "^9.29.0",
     "eslint-plugin-format": "^1.0.1",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.2",
     "tailwindcss": "^4.1.10",
     "typescript": "^5.8.3"
   }
