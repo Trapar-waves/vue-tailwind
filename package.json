@@ -45,7 +45,7 @@
     "@iconify/json": "^2.2.354",
     "@iconify/tailwind4": "^1.0.6",
     "@rsbuild/core": "^1.4.3",
-    "@rsbuild/plugin-vue": "^1.0.7",
+    "@rsbuild/plugin-vue": "^1.1.0",
     "@tailwindcss/postcss": "^4.1.11",
     "eslint": "^9.30.1",
     "eslint-plugin-format": "^1.0.1",
