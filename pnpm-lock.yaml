@@ -19,8 +19,8 @@ importers:
         specifier: ^4.16.2
         version: 4.16.2(@vue/compiler-sfc@3.5.17)(eslint-plugin-format@1.0.1(eslint@9.31.0(jiti@2.4.2)))(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3)
       '@iconify/json':
-        specifier: ^2.2.357
-        version: 2.2.357
+        specifier: ^2.2.358
+        version: 2.2.358
       '@iconify/tailwind4':
         specifier: ^1.0.6
         version: 1.0.6(tailwindcss@4.1.11)
@@ -255,8 +255,8 @@ packages:
     resolution: {integrity: sha512-bV0Tgo9K4hfPCek+aMAn81RppFKv2ySDQeMoSZuvTASywNTnVJCArCZE2FWqpvIatKu7VMRLWlR1EazvVhDyhQ==}
     engines: {node: '>=18.18'}
 
-  '@iconify/json@2.2.357':
-    resolution: {integrity: sha512-v8fr/KwcJ0qsoEJ69k1+M928bfzNmmApyJBTIAwwIzHZrVEUneHTEOJRy7OVYKisauBMVVH067I2uFNoPA92iA==}
+  '@iconify/json@2.2.358':
+    resolution: {integrity: sha512-01NTf7QOYG+gCb8iSWNwkuy/oPFQTgWQzrRYErw1R2IepyvbBkUTaMlLZr8OgAteBxUjNxAWSae2eGk3v9WPCw==}
 
   '@iconify/tailwind4@1.0.6':
     resolution: {integrity: sha512-43ZXe+bC7CuE2LCgROdqbQeFYJi/J7L/k1UpSy8KDQlWVsWxPzLSWbWhlJx4uRYLOh1NRyw02YlDOgzBOFNd+A==}
@@ -2391,7 +2391,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.3': {}
 
-  '@iconify/json@2.2.357':
+  '@iconify/json@2.2.358':
     dependencies:
       '@iconify/types': 2.0.0
       pathe: 1.1.2
