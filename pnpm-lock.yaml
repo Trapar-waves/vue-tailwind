@@ -25,11 +25,11 @@ importers:
         specifier: ^1.0.6
         version: 1.0.6(tailwindcss@4.1.11)
       '@rsbuild/core':
-        specifier: ^1.4.14
-        version: 1.4.14
+        specifier: ^1.4.15
+        version: 1.4.15
       '@rsbuild/plugin-vue':
         specifier: ^1.1.1
-        version: 1.1.1(@rsbuild/core@1.4.14)(@vue/compiler-sfc@3.5.18)(vue@3.5.18(typescript@5.9.2))
+        version: 1.1.1(@rsbuild/core@1.4.15)(@vue/compiler-sfc@3.5.18)(vue@3.5.18(typescript@5.9.2))
       '@tailwindcss/postcss':
         specifier: ^4.1.11
         version: 4.1.11
@@ -329,8 +329,8 @@ packages:
     resolution: {integrity: sha512-ROFF39F6ZrnzSUEmQQZUar0Jt4xVoP9WnDRdWwF4NNcXs3xBTLgBUDoOwW141y1jP+S8nahIbdxbFC7IShw9Iw==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
 
-  '@rsbuild/core@1.4.14':
-    resolution: {integrity: sha512-9ExdIME+/FFEZ30CKGLgNqjyISA8ww/n0+1qd8M69oLoodPuoqIiTMNu1fJVbErXsjje/Kd3MaodlyqGfa4RLw==}
+  '@rsbuild/core@1.4.15':
+    resolution: {integrity: sha512-KoSTtKjzQUQwamcbeCp63Ne9kL7io1WI4+skTJe2chfLz6wsp/Gfg8aKkfs1DuyG1p+zxFDcYpwTWMsNtxqqiw==}
     engines: {node: '>=16.10.0'}
     hasBin: true
 
@@ -915,8 +915,8 @@ packages:
   core-js-compat@3.44.0:
     resolution: {integrity: sha512-JepmAj2zfl6ogy34qfWtcE7nHKAJnKsQFRn++scjVS2bZFllwptzw61BZcZFYBPpUznLfAvh0LGhxKppk04ClA==}
 
-  core-js@3.44.0:
-    resolution: {integrity: sha512-aFCtd4l6GvAXwVEh3XbbVqJGHDJt0OZRa+5ePGx3LLwi12WfexqQxcsohb2wgsa/92xtl19Hd66G/L+TaAxDMw==}
+  core-js@3.45.0:
+    resolution: {integrity: sha512-c2KZL9lP4DjkN3hk/an4pWn5b5ZefhRJnAc42n6LJ19kSnbeRbdQZE5dSeE2LBol1OwJD3X1BQvFTAsa8ReeDA==}
 
   cross-spawn@7.0.6:
     resolution: {integrity: sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==}
@@ -2490,17 +2490,17 @@ snapshots:
 
   '@pkgr/core@0.2.4': {}
 
-  '@rsbuild/core@1.4.14':
+  '@rsbuild/core@1.4.15':
     dependencies:
       '@rspack/core': 1.4.11(@swc/helpers@0.5.17)
       '@rspack/lite-tapable': 1.0.1
       '@swc/helpers': 0.5.17
-      core-js: 3.44.0
+      core-js: 3.45.0
       jiti: 2.5.1
 
-  '@rsbuild/plugin-vue@1.1.1(@rsbuild/core@1.4.14)(@vue/compiler-sfc@3.5.18)(vue@3.5.18(typescript@5.9.2))':
+  '@rsbuild/plugin-vue@1.1.1(@rsbuild/core@1.4.15)(@vue/compiler-sfc@3.5.18)(vue@3.5.18(typescript@5.9.2))':
     dependencies:
-      '@rsbuild/core': 1.4.14
+      '@rsbuild/core': 1.4.15
       vue-loader: 17.4.2(@vue/compiler-sfc@3.5.18)(vue@3.5.18(typescript@5.9.2))(webpack@5.101.0)
       webpack: 5.101.0
     transitivePeerDependencies:
@@ -3133,7 +3133,7 @@ snapshots:
     dependencies:
       browserslist: 4.25.1
 
-  core-js@3.44.0: {}
+  core-js@3.45.0: {}
 
   cross-spawn@7.0.6:
     dependencies:
