@@ -25,11 +25,11 @@ importers:
         specifier: ^1.0.6
         version: 1.0.6(tailwindcss@4.1.12)
       '@rsbuild/core':
-        specifier: ^1.5.0
-        version: 1.5.0
+        specifier: ^1.5.1
+        version: 1.5.1
       '@rsbuild/plugin-vue':
         specifier: ^1.1.2
-        version: 1.1.2(@rsbuild/core@1.5.0)(@vue/compiler-sfc@3.5.20)(vue@3.5.20(typescript@5.9.2))
+        version: 1.1.2(@rsbuild/core@1.5.1)(@vue/compiler-sfc@3.5.20)(vue@3.5.20(typescript@5.9.2))
       '@tailwindcss/postcss':
         specifier: ^4.1.12
         version: 4.1.12
@@ -328,8 +328,8 @@ packages:
     resolution: {integrity: sha512-ROFF39F6ZrnzSUEmQQZUar0Jt4xVoP9WnDRdWwF4NNcXs3xBTLgBUDoOwW141y1jP+S8nahIbdxbFC7IShw9Iw==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
 
-  '@rsbuild/core@1.5.0':
-    resolution: {integrity: sha512-C4TNndcgIQTDbBvdlSLbfuMGH9i66SJlsWkA6AVElwF7RI39lwZ5gIbP+v+l3W8HwcZ78a6iIu88ZEm1FuTSvA==}
+  '@rsbuild/core@1.5.1':
+    resolution: {integrity: sha512-ScXC3nm1drXDyT9OahHxXJ8Tg+1oE5IN2+ZwJzNl0cLJD8Jmbjl4zMUN7zZdRPqjaTCz67IAjws+HN+PSKHBaw==}
     engines: {node: '>=18.12.0'}
     hasBin: true
 
@@ -2447,7 +2447,7 @@ snapshots:
 
   '@pkgr/core@0.2.4': {}
 
-  '@rsbuild/core@1.5.0':
+  '@rsbuild/core@1.5.1':
     dependencies:
       '@rspack/core': 1.5.0(@swc/helpers@0.5.17)
       '@rspack/lite-tapable': 1.0.1
@@ -2455,9 +2455,9 @@ snapshots:
       core-js: 3.45.1
       jiti: 2.5.1
 
-  '@rsbuild/plugin-vue@1.1.2(@rsbuild/core@1.5.0)(@vue/compiler-sfc@3.5.20)(vue@3.5.20(typescript@5.9.2))':
+  '@rsbuild/plugin-vue@1.1.2(@rsbuild/core@1.5.1)(@vue/compiler-sfc@3.5.20)(vue@3.5.20(typescript@5.9.2))':
     dependencies:
-      '@rsbuild/core': 1.5.0
+      '@rsbuild/core': 1.5.1
       vue-loader: 17.4.2(@vue/compiler-sfc@3.5.20)(vue@3.5.20(typescript@5.9.2))(webpack@5.101.3)
       webpack: 5.101.3
     transitivePeerDependencies:
