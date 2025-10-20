@@ -2,7 +2,7 @@
   "name": "@trapar-waves/vue-tailwind",
   "type": "module",
   "version": "1.1.16",
-  "packageManager": "pnpm@10.18.0",
+  "packageManager": "pnpm@10.18.3",
   "description": "A Vue 3 project template integrated with Tailwind CSS for rapid frontend development",
   "author": {
     "email": "admin@rikka.cc",
@@ -42,16 +42,16 @@
     "vue": "^3.5.22"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^5.4.1",
-    "@iconify/json": "^2.2.392",
+    "@antfu/eslint-config": "^6.0.0",
+    "@iconify/json": "^2.2.397",
     "@iconify/tailwind4": "^1.0.6",
-    "@rsbuild/core": "^1.5.13",
+    "@rsbuild/core": "^1.5.17",
     "@rsbuild/plugin-vue": "^1.1.2",
     "@tailwindcss/postcss": "^4.1.14",
-    "eslint": "^9.37.0",
+    "eslint": "^9.38.0",
     "eslint-plugin-format": "^1.0.2",
     "husky": "^9.1.7",
-    "lint-staged": "^16.2.3",
+    "lint-staged": "^16.2.4",
     "tailwindcss": "^4.1.14",
     "typescript": "^5.9.3"
   }
