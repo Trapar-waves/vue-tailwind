@@ -47,12 +47,12 @@
     "@iconify/tailwind4": "^1.1.0",
     "@rsbuild/core": "^1.6.2",
     "@rsbuild/plugin-vue": "^1.2.0",
-    "@tailwindcss/postcss": "^4.1.16",
+    "@tailwindcss/postcss": "^4.1.17",
     "eslint": "^9.39.1",
     "eslint-plugin-format": "^1.0.2",
     "husky": "^9.1.7",
     "lint-staged": "^16.2.6",
-    "tailwindcss": "^4.1.16",
+    "tailwindcss": "^4.1.17",
     "typescript": "^5.9.3"
   }
 }
