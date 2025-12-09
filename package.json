@@ -43,7 +43,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^6.5.1",
-    "@iconify/json": "^2.2.415",
+    "@iconify/json": "^2.2.416",
     "@iconify/tailwind4": "^1.2.0",
     "@rsbuild/core": "^1.6.14",
     "@rsbuild/plugin-vue": "^1.2.0",
