@@ -28,8 +28,8 @@ importers:
         specifier: ^1.6.14
         version: 1.6.14
       '@rsbuild/plugin-vue':
-        specifier: ^1.2.0
-        version: 1.2.0(@rsbuild/core@1.6.14)(@vue/compiler-sfc@3.5.25)(vue@3.5.25(typescript@5.9.3))
+        specifier: ^1.2.1
+        version: 1.2.1(@rsbuild/core@1.6.14)(@vue/compiler-sfc@3.5.25)(vue@3.5.25(typescript@5.9.3))
       '@tailwindcss/postcss':
         specifier: ^4.1.17
         version: 4.1.17
@@ -320,8 +320,8 @@ packages:
     engines: {node: '>=18.12.0'}
     hasBin: true
 
-  '@rsbuild/plugin-vue@1.2.0':
-    resolution: {integrity: sha512-1oN7sAlW2HewZEFei89eKBJFAXGYkiLdco77CrJsqtRMeNowWHXlr3FqDDrqgjMKHSv+Pckiz8KCh7khqbud+A==}
+  '@rsbuild/plugin-vue@1.2.1':
+    resolution: {integrity: sha512-dXRk81fvakqhcDRGmuradopzAIsBQpH3Dlyfpn/IeLRok/XHzmlMFMIPlCDIn/eONF6lur68PdPAFws5FBC3Fw==}
     peerDependencies:
       '@rsbuild/core': 1.x
 
@@ -1489,8 +1489,8 @@ packages:
     resolution: {integrity: sha512-ME4Fb83LgEgwNw96RKNvKV4VTLuXfoKudAmm2lP8Kk87KaMK0/Xrx/aAkMWmT8mDb+3MlFDspfbCs7adjRxA2g==}
     engines: {node: '>=20.0.0'}
 
-  loader-runner@4.3.0:
-    resolution: {integrity: sha512-3R/1M+yS3j5ou80Me59j7F9IMs4PXs3VqRrm0TU3AbKPxlmpoY1TNscJV/oGJXo8qCatFGTfDbY6W6ipGOYXfg==}
+  loader-runner@4.3.1:
+    resolution: {integrity: sha512-IWqP2SCPhyVFTBtRcgMHdzlf9ul25NwaFx4wCEH/KjAXuuHY4yNjvPXsBokp8jCB936PyWRaPKUNh8NvylLp2Q==}
     engines: {node: '>=6.11.5'}
 
   local-pkg@1.1.2:
@@ -2087,10 +2087,6 @@ packages:
       typescript:
         optional: true
 
-  watchpack@2.4.2:
-    resolution: {integrity: sha512-TnbFSbcOCcDgjZ4piURLCbJ3nJhznVh9kw6F6iokjiFPl8ONxe9A6nMDVXDiNbrSfLILs6vB07F7wLBrwPYzJw==}
-    engines: {node: '>=10.13.0'}
-
   watchpack@2.4.4:
     resolution: {integrity: sha512-c5EGNOiyxxV5qmTtAB7rbiXxi1ooX1pQKMLX/MIabJjRA0SJBQOjKF+KSVfHkr9U1cADPon0mRiVe/riyaiDUA==}
     engines: {node: '>=10.13.0'}
@@ -2099,8 +2095,8 @@ packages:
     resolution: {integrity: sha512-yd1RBzSGanHkitROoPFd6qsrxt+oFhg/129YzheDGqeustzX0vTZJZsSsQjVQC4yzBQ56K55XU8gaNCtIzOnTg==}
     engines: {node: '>=10.13.0'}
 
-  webpack@5.102.1:
-    resolution: {integrity: sha512-7h/weGm9d/ywQ6qzJ+Xy+r9n/3qgp/thalBbpOi5i223dPXKi04IBtqPN9nTd+jBc7QKfvDbaBnFipYp4sJAUQ==}
+  webpack@5.103.0:
+    resolution: {integrity: sha512-HU1JOuV1OavsZ+mfigY0j8d1TgQgbZ6M+J75zDkpEAwYeXjWSqrGJtgnPblJjd/mAyTNQ7ygw0MiKOn6etz8yw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     peerDependencies:
@@ -2454,11 +2450,11 @@ snapshots:
       core-js: 3.47.0
       jiti: 2.6.1
 
-  '@rsbuild/plugin-vue@1.2.0(@rsbuild/core@1.6.14)(@vue/compiler-sfc@3.5.25)(vue@3.5.25(typescript@5.9.3))':
+  '@rsbuild/plugin-vue@1.2.1(@rsbuild/core@1.6.14)(@vue/compiler-sfc@3.5.25)(vue@3.5.25(typescript@5.9.3))':
     dependencies:
       '@rsbuild/core': 1.6.14
-      rspack-vue-loader: 17.4.4(@vue/compiler-sfc@3.5.25)(vue@3.5.25(typescript@5.9.3))(webpack@5.102.1)
-      webpack: 5.102.1
+      rspack-vue-loader: 17.4.4(@vue/compiler-sfc@3.5.25)(vue@3.5.25(typescript@5.9.3))(webpack@5.103.0)
+      webpack: 5.103.0
     transitivePeerDependencies:
       - '@swc/core'
       - '@vue/compiler-sfc'
@@ -3666,7 +3662,7 @@ snapshots:
       rfdc: 1.4.1
       wrap-ansi: 9.0.0
 
-  loader-runner@4.3.0: {}
+  loader-runner@4.3.1: {}
 
   local-pkg@1.1.2:
     dependencies:
@@ -4189,11 +4185,11 @@ snapshots:
 
   rfdc@1.4.1: {}
 
-  rspack-vue-loader@17.4.4(@vue/compiler-sfc@3.5.25)(vue@3.5.25(typescript@5.9.3))(webpack@5.102.1):
+  rspack-vue-loader@17.4.4(@vue/compiler-sfc@3.5.25)(vue@3.5.25(typescript@5.9.3))(webpack@5.103.0):
     dependencies:
       chalk: 4.1.2
-      watchpack: 2.4.2
-      webpack: 5.102.1
+      watchpack: 2.4.4
+      webpack: 5.103.0
     optionalDependencies:
       '@vue/compiler-sfc': 3.5.25
       vue: 3.5.25(typescript@5.9.3)
@@ -4303,14 +4299,14 @@ snapshots:
 
   tapable@2.3.0: {}
 
-  terser-webpack-plugin@5.3.14(webpack@5.102.1):
+  terser-webpack-plugin@5.3.14(webpack@5.103.0):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.25
       jest-worker: 27.5.1
       schema-utils: 4.3.3
       serialize-javascript: 6.0.2
       terser: 5.39.0
-      webpack: 5.102.1
+      webpack: 5.103.0
 
   terser@5.39.0:
     dependencies:
@@ -4413,11 +4409,6 @@ snapshots:
     optionalDependencies:
       typescript: 5.9.3
 
-  watchpack@2.4.2:
-    dependencies:
-      glob-to-regexp: 0.4.1
-      graceful-fs: 4.2.11
-
   watchpack@2.4.4:
     dependencies:
       glob-to-regexp: 0.4.1
@@ -4425,7 +4416,7 @@ snapshots:
 
   webpack-sources@3.3.3: {}
 
-  webpack@5.102.1:
+  webpack@5.103.0:
     dependencies:
       '@types/eslint-scope': 3.7.7
       '@types/estree': 1.0.8
@@ -4444,12 +4435,12 @@ snapshots:
       glob-to-regexp: 0.4.1
       graceful-fs: 4.2.11
       json-parse-even-better-errors: 2.3.1
-      loader-runner: 4.3.0
+      loader-runner: 4.3.1
       mime-types: 2.1.35
       neo-async: 2.6.2
       schema-utils: 4.3.3
       tapable: 2.3.0
-      terser-webpack-plugin: 5.3.14(webpack@5.102.1)
+      terser-webpack-plugin: 5.3.14(webpack@5.103.0)
       watchpack: 2.4.4
       webpack-sources: 3.3.3
     transitivePeerDependencies:
