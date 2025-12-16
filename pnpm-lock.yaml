@@ -28,8 +28,8 @@ importers:
         specifier: ^1.6.14
         version: 1.6.14
       '@rsbuild/plugin-vue':
-        specifier: ^1.2.1
-        version: 1.2.1(@rsbuild/core@1.6.14)(@vue/compiler-sfc@3.5.25)(vue@3.5.25(typescript@5.9.3))
+        specifier: ^1.2.2
+        version: 1.2.2(@rsbuild/core@1.6.14)(@vue/compiler-sfc@3.5.25)(vue@3.5.25(typescript@5.9.3))
       '@tailwindcss/postcss':
         specifier: ^4.1.18
         version: 4.1.18
@@ -320,8 +320,8 @@ packages:
     engines: {node: '>=18.12.0'}
     hasBin: true
 
-  '@rsbuild/plugin-vue@1.2.1':
-    resolution: {integrity: sha512-dXRk81fvakqhcDRGmuradopzAIsBQpH3Dlyfpn/IeLRok/XHzmlMFMIPlCDIn/eONF6lur68PdPAFws5FBC3Fw==}
+  '@rsbuild/plugin-vue@1.2.2':
+    resolution: {integrity: sha512-BVCejQjVIxsaG0WF3WSBy1jyVjoLjmrWyslSi0eq1zGxLB4BlyEkIvBQguXI9YsxKxKg0VsXIJQjXus03Rzqkg==}
     peerDependencies:
       '@rsbuild/core': 1.x
 
@@ -1976,10 +1976,6 @@ packages:
   tailwindcss@4.1.18:
     resolution: {integrity: sha512-4+Z+0yiYyEtUVCScyfHCxOYP06L5Ne+JiHhY2IjR2KWMIWhJOYZKLSGZaP5HkZ8+bY0cxfzwDE5uOmzFXyIwxw==}
 
-  tapable@2.2.1:
-    resolution: {integrity: sha512-GNzQvQTOIP6RyTfE2Qxb8ZVlNmw0n88vp1szwWRimP02mnTsx3Wtn5qRdqY9w2XduFNUgvOwhNnQsjwCp+kqaQ==}
-    engines: {node: '>=6'}
-
   tapable@2.3.0:
     resolution: {integrity: sha512-g9ljZiwki/LfxmQADO3dEY1CbpmXT5Hm2fJ+QaGKwSXUylMybePR7/67YW7jOrrvjEgL1Fmz5kzyAjWVWLlucg==}
     engines: {node: '>=6'}
@@ -2454,7 +2450,7 @@ snapshots:
       core-js: 3.47.0
       jiti: 2.6.1
 
-  '@rsbuild/plugin-vue@1.2.1(@rsbuild/core@1.6.14)(@vue/compiler-sfc@3.5.25)(vue@3.5.25(typescript@5.9.3))':
+  '@rsbuild/plugin-vue@1.2.2(@rsbuild/core@1.6.14)(@vue/compiler-sfc@3.5.25)(vue@3.5.25(typescript@5.9.3))':
     dependencies:
       '@rsbuild/core': 1.6.14
       rspack-vue-loader: 17.4.4(@vue/compiler-sfc@3.5.25)(vue@3.5.25(typescript@5.9.3))(webpack@5.103.0)
@@ -3117,7 +3113,7 @@ snapshots:
   enhanced-resolve@5.18.3:
     dependencies:
       graceful-fs: 4.2.11
-      tapable: 2.2.1
+      tapable: 2.3.0
 
   entities@4.5.0: {}
 
@@ -4299,8 +4295,6 @@ snapshots:
       '@pkgr/core': 0.2.9
 
   tailwindcss@4.1.18: {}
-
-  tapable@2.2.1: {}
 
   tapable@2.3.0: {}
 
