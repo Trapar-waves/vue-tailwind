@@ -28,8 +28,8 @@ importers:
         specifier: ^1.7.3
         version: 1.7.3
       '@rsbuild/plugin-vue':
-        specifier: ^1.2.3
-        version: 1.2.3(@rsbuild/core@1.7.3)(@vue/compiler-sfc@3.5.27)(vue@3.5.27(typescript@5.9.3))
+        specifier: ^1.2.5
+        version: 1.2.5(@rsbuild/core@1.7.3)(@vue/compiler-sfc@3.5.27)(vue@3.5.27(typescript@5.9.3))
       '@tailwindcss/postcss':
         specifier: ^4.1.18
         version: 4.1.18
@@ -342,8 +342,8 @@ packages:
     engines: {node: '>=18.12.0'}
     hasBin: true
 
-  '@rsbuild/plugin-vue@1.2.3':
-    resolution: {integrity: sha512-Y84py1vYRWh9mTmjYV9PsjL4jFjwMQ3pI11DwKGCMMSlWgJ0OGbI5Up9N/PO67WDBn8OqyyRhxNArx4xod0JVA==}
+  '@rsbuild/plugin-vue@1.2.5':
+    resolution: {integrity: sha512-2CGE2uImGFUGTQhuqI+Tvvj1xUD8g/tUA5HI1a8Yv+Zqn7JEcKWb+7xi6t8PP4sJfCr+DIiy1vpAMBF+ddlc2g==}
     peerDependencies:
       '@rsbuild/core': ^1.0.0 || ^2.0.0-0
 
@@ -1921,12 +1921,12 @@ packages:
   rfdc@1.4.1:
     resolution: {integrity: sha512-q1b3N5QkRUWUl7iyylaaj3kOpIT0N2i9MqIEQXP73GVsN9cw3fdx8X63cEmWhJGi2PPCF23Ijp7ktmd39rawIA==}
 
-  rspack-vue-loader@17.4.4:
-    resolution: {integrity: sha512-T4rkTZWg9hC7DZapTaJcIphser4ogsTffH/rwnX0pwMpNKjv1XKLBPa5Icd/xNPOh1NiKVxoxcT+gb8NQliukA==}
+  rspack-vue-loader@17.4.5:
+    resolution: {integrity: sha512-i88hGa4mySkwiP7HqRICIAhomcMdkNCZ5tQGcxkcUWmDfC2QfeQegFBEKY4RdbuxJ3p1Ocj/Ul6Sh4yl6L7mDg==}
     peerDependencies:
       '@vue/compiler-sfc': '*'
       vue: '*'
-      webpack: ^4.1.0 || ^5.0.0-0
+      webpack: ^5.0.0
     peerDependenciesMeta:
       '@vue/compiler-sfc':
         optional: true
@@ -2532,10 +2532,10 @@ snapshots:
       core-js: 3.47.0
       jiti: 2.6.1
 
-  '@rsbuild/plugin-vue@1.2.3(@rsbuild/core@1.7.3)(@vue/compiler-sfc@3.5.27)(vue@3.5.27(typescript@5.9.3))':
+  '@rsbuild/plugin-vue@1.2.5(@rsbuild/core@1.7.3)(@vue/compiler-sfc@3.5.27)(vue@3.5.27(typescript@5.9.3))':
     dependencies:
       '@rsbuild/core': 1.7.3
-      rspack-vue-loader: 17.4.4(@vue/compiler-sfc@3.5.27)(vue@3.5.27(typescript@5.9.3))(webpack@5.104.1)
+      rspack-vue-loader: 17.4.5(@vue/compiler-sfc@3.5.27)(vue@3.5.27(typescript@5.9.3))(webpack@5.104.1)
       webpack: 5.104.1
     transitivePeerDependencies:
       - '@swc/core'
@@ -4292,7 +4292,7 @@ snapshots:
 
   rfdc@1.4.1: {}
 
-  rspack-vue-loader@17.4.4(@vue/compiler-sfc@3.5.27)(vue@3.5.27(typescript@5.9.3))(webpack@5.104.1):
+  rspack-vue-loader@17.4.5(@vue/compiler-sfc@3.5.27)(vue@3.5.27(typescript@5.9.3))(webpack@5.104.1):
     dependencies:
       chalk: 4.1.2
       watchpack: 2.4.4
