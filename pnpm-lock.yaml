@@ -28,8 +28,8 @@ importers:
         specifier: ^1.7.3
         version: 1.7.3
       '@rsbuild/plugin-vue':
-        specifier: ^1.2.6
-        version: 1.2.6(@rsbuild/core@1.7.3)(@rspack/core@1.7.5(@swc/helpers@0.5.18))(@vue/compiler-sfc@3.5.30)(vue@3.5.30(typescript@5.9.3))
+        specifier: ^1.2.7
+        version: 1.2.7(@rsbuild/core@1.7.3)(@rspack/core@1.7.5(@swc/helpers@0.5.18))(@vue/compiler-sfc@3.5.30)(vue@3.5.30(typescript@5.9.3))
       '@tailwindcss/postcss':
         specifier: ^4.2.1
         version: 4.2.1
@@ -459,10 +459,13 @@ packages:
     engines: {node: '>=18.12.0'}
     hasBin: true
 
-  '@rsbuild/plugin-vue@1.2.6':
-    resolution: {integrity: sha512-4DdKAocXrNLghdFfunFRyc3YXKCnYbmAng5FLQD4mqt2imcgf7gggbAreKI1lAc6cd5SMhyIrHTruvWz+oMVWQ==}
+  '@rsbuild/plugin-vue@1.2.7':
+    resolution: {integrity: sha512-epDSChyeR4U+gwq2vfTARV9hbfrmdFTdmhBWIcv7MFyckn3yxJhweJVwdx14Wf3d8s1p4XZzDpqmphDyvX443Q==}
     peerDependencies:
       '@rsbuild/core': ^1.0.0 || ^2.0.0-0
+    peerDependenciesMeta:
+      '@rsbuild/core':
+        optional: true
 
   '@rspack/binding-darwin-arm64@1.7.5':
     resolution: {integrity: sha512-dg2/IrF+g498NUt654N8LFWfIiUsHlTankWieE1S3GWEQM6jweeRbNuu1Py1nWIUsjR2yQtv7ziia7c9Q8UTaQ==}
@@ -2415,10 +2418,11 @@ snapshots:
       core-js: 3.47.0
       jiti: 2.6.1
 
-  '@rsbuild/plugin-vue@1.2.6(@rsbuild/core@1.7.3)(@rspack/core@1.7.5(@swc/helpers@0.5.18))(@vue/compiler-sfc@3.5.30)(vue@3.5.30(typescript@5.9.3))':
+  '@rsbuild/plugin-vue@1.2.7(@rsbuild/core@1.7.3)(@rspack/core@1.7.5(@swc/helpers@0.5.18))(@vue/compiler-sfc@3.5.30)(vue@3.5.30(typescript@5.9.3))':
     dependencies:
-      '@rsbuild/core': 1.7.3
       rspack-vue-loader: 17.5.0(@rspack/core@1.7.5(@swc/helpers@0.5.18))(@vue/compiler-sfc@3.5.30)(vue@3.5.30(typescript@5.9.3))
+    optionalDependencies:
+      '@rsbuild/core': 1.7.3
     transitivePeerDependencies:
       - '@rspack/core'
       - '@vue/compiler-sfc'
