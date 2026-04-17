@@ -48,7 +48,7 @@
     "@rsbuild/core": "^1.7.5",
     "@rsbuild/plugin-vue": "^1.2.7",
     "@tailwindcss/postcss": "^4.2.2",
-    "eslint": "^10.2.0",
+    "eslint": "^10.2.1",
     "eslint-plugin-format": "^2.0.1",
     "husky": "^9.1.7",
     "lint-staged": "^16.4.0",
