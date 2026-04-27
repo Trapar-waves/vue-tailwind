@@ -32,6 +32,7 @@
   },
   "scripts": {
     "build": "rsbuild build",
+    "build:rsdoctor": "cross-env RSDOCTOR=true rsbuild build",
     "dev": "rsbuild dev --open",
     "preview": "rsbuild preview",
     "lint": "eslint . --cache --max-warnings=0 --no-warn-ignored",
@@ -47,7 +48,9 @@
     "@iconify/tailwind4": "^1.2.3",
     "@rsbuild/core": "^2.0.1",
     "@rsbuild/plugin-vue": "^1.2.7",
+    "@rsdoctor/rspack-plugin": "^1.5.9",
     "@tailwindcss/postcss": "^4.2.4",
+    "cross-env": "^10.1.0",
     "eslint": "^10.2.1",
     "eslint-plugin-format": "^2.0.1",
     "husky": "^9.1.7",
