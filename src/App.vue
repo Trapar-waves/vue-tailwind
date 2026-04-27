@@ -135,8 +135,8 @@ const readmeTechNote = "README Features 未逐条列出 Husky、lint-staged 与 
           技术栈一览
         </h2>
         <p class="trapar-prose">
-          Rsbuild 与 Rspack/webpack 生态相关示意使用
-          <code class="trapar-code">logos--webpack</code>
+          Rsbuild 与 Rspack 生态相关示意使用
+          <code class="trapar-code">material-icon-theme--rstack</code>
           ；完整图标集见
           <a :href="LOGOS_SET_URL" class="trapar-inline-link" target="_blank" rel="noreferrer">logos 文档</a>。
         </p>
