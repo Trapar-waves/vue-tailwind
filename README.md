@@ -22,6 +22,20 @@
 - **ESLint & Antfu Config**: Enforce code style and best practices.
 - **PostCSS**: Process CSS with `@tailwindcss/postcss` for optimal Tailwind integration.
 
+## GitHub Pages
+
+Pushing a version tag matching `v*` runs [`.github/workflows/pages.yml`](./.github/workflows/pages.yml), which builds with `BASE_PATH=/<repository-name>/`, copies `dist/index.html` to `dist/404.html` for SPA routing, and deploys to GitHub Pages. In the repository **Settings → Pages**, set **Source** to **GitHub Actions** once.
+
+```bash
+BASE_PATH=/vue-tailwind/ pnpm run build && pnpm preview
+```
+
+PowerShell:
+
+```powershell
+$env:BASE_PATH="/vue-tailwind/"; pnpm run build; pnpm preview
+```
+
 ## 💻 Tech Stack
 
 - **Framework**: [Vue 3](https://v3.vuejs.org/)
