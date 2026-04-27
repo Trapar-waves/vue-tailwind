@@ -25,14 +25,14 @@ importers:
         specifier: ^1.2.3
         version: 1.2.3(tailwindcss@4.2.4)
       '@rsbuild/core':
-        specifier: ^2.0.1
-        version: 2.0.1(core-js@3.47.0)
+        specifier: ^2.0.2
+        version: 2.0.2(core-js@3.47.0)
       '@rsbuild/plugin-vue':
         specifier: ^1.2.7
-        version: 1.2.7(@rsbuild/core@2.0.1(core-js@3.47.0))(@rspack/core@2.0.0(@swc/helpers@0.5.21))(@vue/compiler-sfc@3.5.33)(vue@3.5.33(typescript@6.0.3))
+        version: 1.2.7(@rsbuild/core@2.0.2(core-js@3.47.0))(@rspack/core@2.0.0(@swc/helpers@0.5.21))(@vue/compiler-sfc@3.5.33)(vue@3.5.33(typescript@6.0.3))
       '@rsdoctor/rspack-plugin':
         specifier: ^1.5.9
-        version: 1.5.9(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@rsbuild/core@2.0.1(core-js@3.47.0))(@rspack/core@2.0.0(@swc/helpers@0.5.21))
+        version: 1.5.9(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@rsbuild/core@2.0.2(core-js@3.47.0))(@rspack/core@2.0.0(@swc/helpers@0.5.21))
       '@tailwindcss/postcss':
         specifier: ^4.2.4
         version: 4.2.4
@@ -596,8 +596,8 @@ packages:
     resolution: {integrity: sha512-QNqXyfVS2wm9hweSYD2O7F0G06uurj9kZ96TRQE5Y9hU7+tgdZwIkbAKc5Ocy1HxEY2kuDQa6cQ1WRs/O5LFKA==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
 
-  '@rsbuild/core@2.0.1':
-    resolution: {integrity: sha512-5TwUpb10Y+VYaYH8oLL/rfJGrhxrk16BiGzv101kzaMPT60MtOXgjEUTxztbjRuq0ifbtRJ/w7rsIZQ4VziWYg==}
+  '@rsbuild/core@2.0.2':
+    resolution: {integrity: sha512-0Vo1W0ZekQ6jTIaSqiG/dgMrYXcKP/eUDNad87NhxfMfu/S5xZT8fk0AEMMk49IyvIIE56uw2Ua6rw8mnZtM+Q==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -3094,7 +3094,7 @@ snapshots:
 
   '@pkgr/core@0.2.9': {}
 
-  '@rsbuild/core@2.0.1(core-js@3.47.0)':
+  '@rsbuild/core@2.0.2(core-js@3.47.0)':
     dependencies:
       '@rspack/core': 2.0.0(@swc/helpers@0.5.21)
       '@swc/helpers': 0.5.21
@@ -3103,7 +3103,7 @@ snapshots:
     transitivePeerDependencies:
       - '@module-federation/runtime-tools'
 
-  '@rsbuild/plugin-check-syntax@1.6.1(@rsbuild/core@2.0.1(core-js@3.47.0))':
+  '@rsbuild/plugin-check-syntax@1.6.1(@rsbuild/core@2.0.2(core-js@3.47.0))':
     dependencies:
       acorn: 8.16.0
       browserslist-to-es-version: 1.4.1
@@ -3111,13 +3111,13 @@ snapshots:
       picocolors: 1.1.1
       source-map: 0.7.6
     optionalDependencies:
-      '@rsbuild/core': 2.0.1(core-js@3.47.0)
+      '@rsbuild/core': 2.0.2(core-js@3.47.0)
 
-  '@rsbuild/plugin-vue@1.2.7(@rsbuild/core@2.0.1(core-js@3.47.0))(@rspack/core@2.0.0(@swc/helpers@0.5.21))(@vue/compiler-sfc@3.5.33)(vue@3.5.33(typescript@6.0.3))':
+  '@rsbuild/plugin-vue@1.2.7(@rsbuild/core@2.0.2(core-js@3.47.0))(@rspack/core@2.0.0(@swc/helpers@0.5.21))(@vue/compiler-sfc@3.5.33)(vue@3.5.33(typescript@6.0.3))':
     dependencies:
       rspack-vue-loader: 17.5.0(@rspack/core@2.0.0(@swc/helpers@0.5.21))(@vue/compiler-sfc@3.5.33)(vue@3.5.33(typescript@6.0.3))
     optionalDependencies:
-      '@rsbuild/core': 2.0.1(core-js@3.47.0)
+      '@rsbuild/core': 2.0.2(core-js@3.47.0)
     transitivePeerDependencies:
       - '@rspack/core'
       - '@vue/compiler-sfc'
@@ -3125,9 +3125,9 @@ snapshots:
 
   '@rsdoctor/client@1.5.9': {}
 
-  '@rsdoctor/core@1.5.9(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@rsbuild/core@2.0.1(core-js@3.47.0))(@rspack/core@2.0.0(@swc/helpers@0.5.21))':
+  '@rsdoctor/core@1.5.9(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@rsbuild/core@2.0.2(core-js@3.47.0))(@rspack/core@2.0.0(@swc/helpers@0.5.21))':
     dependencies:
-      '@rsbuild/plugin-check-syntax': 1.6.1(@rsbuild/core@2.0.1(core-js@3.47.0))
+      '@rsbuild/plugin-check-syntax': 1.6.1(@rsbuild/core@2.0.2(core-js@3.47.0))
       '@rsdoctor/graph': 1.5.9(@rspack/core@2.0.0(@swc/helpers@0.5.21))
       '@rsdoctor/sdk': 1.5.9(@rspack/core@2.0.0(@swc/helpers@0.5.21))
       '@rsdoctor/types': 1.5.9(@rspack/core@2.0.0(@swc/helpers@0.5.21))
@@ -3160,9 +3160,9 @@ snapshots:
       - '@rspack/core'
       - webpack
 
-  '@rsdoctor/rspack-plugin@1.5.9(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@rsbuild/core@2.0.1(core-js@3.47.0))(@rspack/core@2.0.0(@swc/helpers@0.5.21))':
+  '@rsdoctor/rspack-plugin@1.5.9(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@rsbuild/core@2.0.2(core-js@3.47.0))(@rspack/core@2.0.0(@swc/helpers@0.5.21))':
     dependencies:
-      '@rsdoctor/core': 1.5.9(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@rsbuild/core@2.0.1(core-js@3.47.0))(@rspack/core@2.0.0(@swc/helpers@0.5.21))
+      '@rsdoctor/core': 1.5.9(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@rsbuild/core@2.0.2(core-js@3.47.0))(@rspack/core@2.0.0(@swc/helpers@0.5.21))
       '@rsdoctor/graph': 1.5.9(@rspack/core@2.0.0(@swc/helpers@0.5.21))
       '@rsdoctor/sdk': 1.5.9(@rspack/core@2.0.0(@swc/helpers@0.5.21))
       '@rsdoctor/types': 1.5.9(@rspack/core@2.0.0(@swc/helpers@0.5.21))
