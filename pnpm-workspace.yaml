@@ -6,3 +6,6 @@ onlyBuiltDependencies:
   - "@tailwindcss/oxide"
   - core-js
   - unrs-resolver
+
+allowBuilds:
+  core-js: true
