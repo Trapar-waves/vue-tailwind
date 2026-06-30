@@ -49,13 +49,13 @@
     "@rsbuild/core": "^2.1.1",
     "@rsbuild/plugin-vue": "^2.0.0",
     "@rsdoctor/rspack-plugin": "^1.5.16",
-    "@tailwindcss/postcss": "^4.3.1",
+    "@tailwindcss/postcss": "^4.3.2",
     "cross-env": "^10.1.0",
     "eslint": "^10.6.0",
     "eslint-plugin-format": "^2.0.1",
     "husky": "^9.1.7",
     "lint-staged": "^17.0.8",
-    "tailwindcss": "^4.3.1",
+    "tailwindcss": "^4.3.2",
     "typescript": "^6.0.3",
     "unplugin-turbo-console": "^2.3.2"
   }
