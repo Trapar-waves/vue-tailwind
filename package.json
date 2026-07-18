@@ -54,7 +54,7 @@
     "eslint": "^10.7.0",
     "eslint-plugin-format": "^2.0.1",
     "husky": "^9.1.7",
-    "lint-staged": "^17.0.8",
+    "lint-staged": "^17.1.0",
     "tailwindcss": "^4.3.3",
     "typescript": "^6.0.3",
     "unplugin-turbo-console": "^2.3.3"
