@@ -13,6 +13,10 @@
 
 > 一个现代化的前端开发模板，集成了 Vue 3 和 Tailwind CSS v4，配合 Rsbuild、TypeScript、VueUse 和 Iconify 支持，用于快速 UI 开发。
 
+![vue-tailwind hero](../assets/readme/hero.svg)
+
+![Features](../assets/readme/headers/features.svg)
+
 ## ✨ 特性
 
 - **现代框架：** 基于 Vue 3 构建，利用组合式 API 和 `<script setup>` 实现简洁、响应式的组件开发。
@@ -23,6 +27,8 @@
 - **类型安全：** 利用 TypeScript (v5.9.x) 提高代码可靠性，并在开发过程中提供强大的类型检查。
 - **代码质量：** 包含 ESLint 和 `@antfu/eslint-config` 进行代码检查和最佳实践强制执行。
 - **Git Hooks：** 集成 `husky` 和 `lint-staged` 进行提交前检查。
+
+![Tech Stack](../assets/readme/headers/tech-stack.svg)
 
 ## 💻 技术栈
 
@@ -36,6 +42,8 @@
 - **图标：** Iconify（`@iconify/json`、`@iconify/tailwind4`）
 
 查看 [package.json](../package.json) 获取完整的依赖列表。
+
+![Getting Started](../assets/readme/headers/getting-started.svg)
 
 ## 🚀 快速开始
 
@@ -64,6 +72,8 @@
    pnpm dev
    ```
 
+![Project Structure](../assets/readme/headers/project-structure.svg)
+
 ## 📁 项目结构
 
 ```
@@ -79,6 +89,8 @@
 └── package.json        # 项目依赖和脚本
 ```
 
+![Contributing](../assets/readme/headers/contributing.svg)
+
 ## 🤝 贡献
 
 欢迎贡献，非常感谢！请按照以下步骤贡献：
@@ -88,6 +100,8 @@
 3. 提交更改（`git commit -m 'Add some amazing feature'`）
 4. 推送到分支（`git push origin feature/amazing-feature`）
 5. 创建 Pull Request
+
+![License](../assets/readme/headers/license.svg)
 
 ## 📄 许可证
 

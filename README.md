@@ -13,6 +13,10 @@
 
 > A modern frontend development template integrating Vue 3 and Tailwind CSS v4, with Rsbuild, TypeScript, VueUse, and Iconify support for rapid UI development.
 
+![vue-tailwind hero](assets/readme/hero.svg)
+
+![Features](assets/readme/headers/features.svg)
+
 ## ✨ Features
 
 - **Modern Framework:** Built on Vue 3, leveraging the Composition API and `<script setup>` for clean, reactive component development.
@@ -23,6 +27,8 @@
 - **Type Safety:** Utilizes TypeScript (v5.9.x) to enhance code reliability and provide robust type checking during development.
 - **Code Quality:** Includes ESLint with `@antfu/eslint-config` for linting and enforcing best practices in the codebase.
 - **Git Hooks:** Integrated `husky` and `lint-staged` for pre-commit checks.
+
+![Tech Stack](assets/readme/headers/tech-stack.svg)
 
 ## 💻 Tech Stack
 
@@ -36,6 +42,8 @@
 - **Iconography:** Iconify (`@iconify/json`, `@iconify/tailwind4`)
 
 See the [package.json](./package.json) for a full list of dependencies.
+
+![Getting Started](assets/readme/headers/getting-started.svg)
 
 ## 🚀 Getting Started
 
@@ -64,6 +72,8 @@ See the [package.json](./package.json) for a full list of dependencies.
    pnpm dev
    ```
 
+![Project Structure](assets/readme/headers/project-structure.svg)
+
 ## 📁 Project Structure
 
 ```
@@ -79,6 +89,8 @@ See the [package.json](./package.json) for a full list of dependencies.
 └── package.json        # Project dependencies and scripts
 ```
 
+![Contributing](assets/readme/headers/contributing.svg)
+
 ## 🤝 Contributing
 
 Contributions are welcome and greatly appreciated! Please follow these steps to contribute:
@@ -88,6 +100,8 @@ Contributions are welcome and greatly appreciated! Please follow these steps to 
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
+
+![License](assets/readme/headers/license.svg)
 
 ## 📄 License
 

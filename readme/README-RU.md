@@ -13,6 +13,10 @@
 
 > Современный шаблон фронтенд-разработки, интегрирующий Vue 3 и Tailwind CSS v4, с поддержкой Rsbuild, TypeScript, VueUse и Iconify для быстрой разработки UI.
 
+![vue-tailwind hero](../assets/readme/hero.svg)
+
+![Features](../assets/readme/headers/features.svg)
+
 ## ✨ Возможности
 
 - **Современный фреймворк:** Построен на Vue 3, используя Composition API и `<script setup>` для чистой, реактивной разработки компонентов.
@@ -23,6 +27,8 @@
 - **Типобезопасность:** Использует TypeScript (v5.9.x) для повышения надежности кода и обеспечения строгой проверки типов во время разработки.
 - **Качество кода:** Включает ESLint с `@antfu/eslint-config` для линтинга и применения лучших практик.
 - **Git Hooks:** Интегрированы `husky` и `lint-staged` для проверок перед коммитом.
+
+![Tech Stack](../assets/readme/headers/tech-stack.svg)
 
 ## 💻 Технический стек
 
@@ -36,6 +42,8 @@
 - **Иконки:** Iconify (`@iconify/json`, `@iconify/tailwind4`)
 
 Полный список зависимостей смотрите в [package.json](../package.json).
+
+![Getting Started](../assets/readme/headers/getting-started.svg)
 
 ## 🚀 Начало работы
 
@@ -64,6 +72,8 @@
    pnpm dev
    ```
 
+![Project Structure](../assets/readme/headers/project-structure.svg)
+
 ## 📁 Структура проекта
 
 ```
@@ -79,6 +89,8 @@
 └── package.json        # Зависимости и скрипты проекта
 ```
 
+![Contributing](../assets/readme/headers/contributing.svg)
+
 ## 🤝 Участие в разработке
 
 Участие приветствуется и высоко ценится! Пожалуйста, следуйте этим шагам для вклада:
@@ -88,6 +100,8 @@
 3. Зафиксируйте изменения (`git commit -m 'Add some amazing feature'`)
 4. Отправьте изменения в ветку (`git push origin feature/amazing-feature`)
 5. Откройте Pull Request
+
+![License](../assets/readme/headers/license.svg)
 
 ## 📄 Лицензия
 

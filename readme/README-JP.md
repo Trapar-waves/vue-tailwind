@@ -13,6 +13,10 @@
 
 > Vue 3 と Tailwind CSS v4 を統合したモダンなフロントエンド開発テンプレート。Rsbuild、TypeScript、VueUse、Iconify サポート付き、迅速な UI 開発向け。
 
+![vue-tailwind hero](../assets/readme/hero.svg)
+
+![Features](../assets/readme/headers/features.svg)
+
 ## ✨ 特徴
 
 - **モダンフレームワーク：** Vue 3 をベースに、Composition API と `<script setup>` を活用したクリーンでリアクティブなコンポーネント開発。
@@ -23,6 +27,8 @@
 - **型安全性：** TypeScript (v5.9.x) を活用し、コードの信頼性を向上させ、開発中に堅牢な型チェックを提供。
 - **コード品質：** ESLint と `@antfu/eslint-config` を含み、リントとベストプラクティスの適用を強制。
 - **Git Hooks：** `husky` と `lint-staged` を統合し、コミット前チェックを実行。
+
+![Tech Stack](../assets/readme/headers/tech-stack.svg)
 
 ## 💻 技術スタック
 
@@ -36,6 +42,8 @@
 - **アイコン：** Iconify（`@iconify/json`、`@iconify/tailwind4`）
 
 依存関係の完全なリストは [package.json](../package.json) を参照してください。
+
+![Getting Started](../assets/readme/headers/getting-started.svg)
 
 ## 🚀 はじめに
 
@@ -64,6 +72,8 @@
    pnpm dev
    ```
 
+![Project Structure](../assets/readme/headers/project-structure.svg)
+
 ## 📁 プロジェクト構造
 
 ```
@@ -79,6 +89,8 @@
 └── package.json        # プロジェクトの依存関係とスクリプト
 ```
 
+![Contributing](../assets/readme/headers/contributing.svg)
+
 ## 🤝 コントリビュート
 
 コントリビュートを歓迎します！以下の手順に従ってコントリビュートしてください：
@@ -88,6 +100,8 @@
 3. 変更をコミット（`git commit -m 'Add some amazing feature'`）
 4. ブランチにプッシュ（`git push origin feature/amazing-feature`）
 5. Pull Request を作成
+
+![License](../assets/readme/headers/license.svg)
 
 ## 📄 ライセンス
 
