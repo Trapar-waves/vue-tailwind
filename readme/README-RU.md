@@ -17,8 +17,6 @@
 
 ![Features](../assets/readme/headers/features.svg)
 
-## ✨ Возможности
-
 - **Современный фреймворк:** Построен на Vue 3, используя Composition API и `<script setup>` для чистой, реактивной разработки компонентов.
 - **Утилитарный подход к стилям:** Использует Tailwind CSS v4 (`tailwindcss`) вместе с `@tailwindcss/postcss`, обеспечивая гибкую и быструю разработку стилей с сохранением一致性.
 - **Быстрый рабочий процесс разработки:** Использует Rsbuild (`@rsbuild/core` и `@rsbuild/plugin-vue`) для оптимизированных сборок и эффективной работы сервера разработки.
@@ -29,8 +27,6 @@
 - **Git Hooks:** Интегрированы `husky` и `lint-staged` для проверок перед коммитом.
 
 ![Tech Stack](../assets/readme/headers/tech-stack.svg)
-
-## 💻 Технический стек
 
 - **Фреймворк:** Vue 3 (`vue`)
 - **Стилизация:** Tailwind CSS v4 (`tailwindcss`)
@@ -44,8 +40,6 @@
 Полный список зависимостей смотрите в [package.json](../package.json).
 
 ![Getting Started](../assets/readme/headers/getting-started.svg)
-
-## 🚀 Начало работы
 
 ### Предварительные требования
 
@@ -74,8 +68,6 @@
 
 ![Project Structure](../assets/readme/headers/project-structure.svg)
 
-## 📁 Структура проекта
-
 ```
 ├── public/             # Статические ресурсы
 ├── src/                # Исходный код
@@ -91,8 +83,6 @@
 
 ![Contributing](../assets/readme/headers/contributing.svg)
 
-## 🤝 Участие в разработке
-
 Участие приветствуется и высоко ценится! Пожалуйста, следуйте этим шагам для вклада:
 
 1. Fork репозиторий
@@ -102,8 +92,6 @@
 5. Откройте Pull Request
 
 ![License](../assets/readme/headers/license.svg)
-
-## 📄 Лицензия
 
 MIT License © 2025 Trapar Waves
 

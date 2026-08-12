@@ -17,8 +17,6 @@
 
 ![Features](assets/readme/headers/features.svg)
 
-## ✨ Features
-
 - **Modern Framework:** Built on Vue 3, leveraging the Composition API and `<script setup>` for clean, reactive component development.
 - **Utility-First Styling:** Employs Tailwind CSS v4 (`tailwindcss`) along with `@tailwindcss/postcss`, enabling flexible and rapid styling while maintaining consistency.
 - **Fast Development Workflow:** Uses Rsbuild (`@rsbuild/core` and `@rsbuild/plugin-vue`) for optimized builds and efficient development server performance.
@@ -29,8 +27,6 @@
 - **Git Hooks:** Integrated `husky` and `lint-staged` for pre-commit checks.
 
 ![Tech Stack](assets/readme/headers/tech-stack.svg)
-
-## 💻 Tech Stack
 
 - **Framework:** Vue 3 (`vue`)
 - **Styling:** Tailwind CSS v4 (`tailwindcss`)
@@ -44,8 +40,6 @@
 See the [package.json](./package.json) for a full list of dependencies.
 
 ![Getting Started](assets/readme/headers/getting-started.svg)
-
-## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -74,8 +68,6 @@ See the [package.json](./package.json) for a full list of dependencies.
 
 ![Project Structure](assets/readme/headers/project-structure.svg)
 
-## 📁 Project Structure
-
 ```
 ├── public/             # Static assets
 ├── src/                # Source code
@@ -91,8 +83,6 @@ See the [package.json](./package.json) for a full list of dependencies.
 
 ![Contributing](assets/readme/headers/contributing.svg)
 
-## 🤝 Contributing
-
 Contributions are welcome and greatly appreciated! Please follow these steps to contribute:
 
 1. Fork the repository
@@ -102,8 +92,6 @@ Contributions are welcome and greatly appreciated! Please follow these steps to 
 5. Open a Pull Request
 
 ![License](assets/readme/headers/license.svg)
-
-## 📄 License
 
 MIT License © 2025 Trapar Waves
 

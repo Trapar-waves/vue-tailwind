@@ -17,8 +17,6 @@
 
 ![Features](../assets/readme/headers/features.svg)
 
-## ✨ 特性
-
 - **现代框架：** 基于 Vue 3 构建，利用组合式 API 和 `<script setup>` 实现简洁、响应式的组件开发。
 - **实用优先的样式：** 采用 Tailwind CSS v4（`tailwindcss`）和 `@tailwindcss/postcss`，实现灵活快速的样式开发，同时保持一致性。
 - **快速开发工作流：** 使用 Rsbuild（`@rsbuild/core` 和 `@rsbuild/plugin-vue`）进行优化构建和高效开发服务器性能。
@@ -29,8 +27,6 @@
 - **Git Hooks：** 集成 `husky` 和 `lint-staged` 进行提交前检查。
 
 ![Tech Stack](../assets/readme/headers/tech-stack.svg)
-
-## 💻 技术栈
 
 - **框架：** Vue 3（`vue`）
 - **样式：** Tailwind CSS v4（`tailwindcss`）
@@ -44,8 +40,6 @@
 查看 [package.json](../package.json) 获取完整的依赖列表。
 
 ![Getting Started](../assets/readme/headers/getting-started.svg)
-
-## 🚀 快速开始
 
 ### 前置条件
 
@@ -74,8 +68,6 @@
 
 ![Project Structure](../assets/readme/headers/project-structure.svg)
 
-## 📁 项目结构
-
 ```
 ├── public/             # 静态资源
 ├── src/                # 源代码
@@ -91,8 +83,6 @@
 
 ![Contributing](../assets/readme/headers/contributing.svg)
 
-## 🤝 贡献
-
 欢迎贡献，非常感谢！请按照以下步骤贡献：
 
 1. Fork 仓库
@@ -102,8 +92,6 @@
 5. 创建 Pull Request
 
 ![License](../assets/readme/headers/license.svg)
-
-## 📄 许可证
 
 MIT License © 2025 Trapar Waves
 

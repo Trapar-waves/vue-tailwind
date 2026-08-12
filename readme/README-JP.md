@@ -17,8 +17,6 @@
 
 ![Features](../assets/readme/headers/features.svg)
 
-## ✨ 特徴
-
 - **モダンフレームワーク：** Vue 3 をベースに、Composition API と `<script setup>` を活用したクリーンでリアクティブなコンポーネント開発。
 - **ユーティリティファーストのスタイリング：** Tailwind CSS v4（`tailwindcss`）と `@tailwindcss/postcss` を採用し、柔軟で迅速なスタイリングを実現しながら一貫性を維持。
 - **高速開発ワークフロー：** Rsbuild（`@rsbuild/core` と `@rsbuild/plugin-vue`）を使用し、最適化されたビルドと効率的な開発サーバー性能を実現。
@@ -29,8 +27,6 @@
 - **Git Hooks：** `husky` と `lint-staged` を統合し、コミット前チェックを実行。
 
 ![Tech Stack](../assets/readme/headers/tech-stack.svg)
-
-## 💻 技術スタック
 
 - **フレームワーク：** Vue 3（`vue`）
 - **スタイリング：** Tailwind CSS v4（`tailwindcss`）
@@ -44,8 +40,6 @@
 依存関係の完全なリストは [package.json](../package.json) を参照してください。
 
 ![Getting Started](../assets/readme/headers/getting-started.svg)
-
-## 🚀 はじめに
 
 ### 前提条件
 
@@ -74,8 +68,6 @@
 
 ![Project Structure](../assets/readme/headers/project-structure.svg)
 
-## 📁 プロジェクト構造
-
 ```
 ├── public/             # 静的アセット
 ├── src/                # ソースコード
@@ -91,8 +83,6 @@
 
 ![Contributing](../assets/readme/headers/contributing.svg)
 
-## 🤝 コントリビュート
-
 コントリビュートを歓迎します！以下の手順に従ってコントリビュートしてください：
 
 1. リポジトリをフォーク
@@ -102,8 +92,6 @@
 5. Pull Request を作成
 
 ![License](../assets/readme/headers/license.svg)
-
-## 📄 ライセンス
 
 MIT License © 2025 Trapar Waves
 
