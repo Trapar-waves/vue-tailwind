@@ -38,33 +38,19 @@
     "postinstall": "husky"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "@vueuse/core": "^14.2.1",
-    "vue": "^3.5.41"
-  },
-  "devDependencies": {
-    "@antfu/eslint-config": "^7.4.3",
-    "@iconify/json": "^2.2.515",
-    "@iconify/tailwind4": "^1.2.3",
-    "@rsbuild/core": "^1.7.3",
-    "@rsbuild/plugin-vue": "^1.2.6",
-    "@tailwindcss/postcss": "^4.2.0",
-    "eslint": "^10.0.0",
-    "eslint-plugin-format": "^1.5.0",
-=======
     "@vueuse/core": "^14.4.0",
     "vue": "^3.5.41"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^9.3.0",
     "@iconify/json": "^2.2.517",
     "@iconify/tailwind4": "^1.2.3",
+    "@renton/eslint-config-vue": "^0.1.2",
     "@rsbuild/core": "^2.1.13",
     "@rsbuild/plugin-vue": "^2.0.1",
     "@tailwindcss/postcss": "^4.3.3",
     "eslint": "^10.8.1",
     "eslint-plugin-format": "^2.0.1",
->>>>>>> 554b4ed (chore: upgrade dependencies and fix README heading levels)
+    "eslint-plugin-perfectionist": "^5.10.1",
     "husky": "^9.1.7",
     "lint-staged": "^17.3.0",
     "tailwindcss": "^4.3.3",

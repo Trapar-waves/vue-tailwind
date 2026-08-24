@@ -2,6 +2,9 @@ allowBuilds:
   core-js: true
 minimumReleaseAgeExclude:
   - "@iconify/json@2.2.517"
+  - '@renton/eslint-config-frontend@0.1.2'
+  - '@renton/eslint-config-vue@0.1.2'
+  - '@renton/eslint-config@0.1.2'
 shellEmulator: true
 
 trustPolicy: no-downgrade
