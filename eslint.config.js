@@ -9,10 +9,19 @@ export default rentonVue({
     quotes: "double",
     semi: true,
   },
-}).then(configs =>
-  configs.map(c =>
-    c.name === "renton/vue/perfectionist" && !c.plugins
-      ? { ...c, plugins: { perfectionist: pluginPerfectionist } }
-      : c,
-  ),
-);
+  markdown: true,
+  vue: true,
+  yaml: true,
+  jsonc: true,
+  typescript: true,
+  formatters: {
+    markdown: "prettier",
+    css: "prettier",
+  },
+}, {
+  name: "trapar/pnpm-workspace-yaml-trust-policy",
+  files: ["pnpm-workspace.yaml"],
+  rules: {
+    "pnpm/yaml-enforce-settings": "off",
+  },
+});

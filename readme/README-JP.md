@@ -1,106 +1,159 @@
 # @trapar-waves/vue-tailwind
 
-![npm version](https://img.shields.io/npm/v/@trapar-waves/vue-tailwind)
-![npm dm](https://img.shields.io/npm/dm/@trapar-waves/vue-tailwind)
-![License](https://img.shields.io/github/license/Trapar-waves/vue-tailwind)
-![GitHub last commit](https://img.shields.io/github/last-commit/Trapar-waves/vue-tailwind)
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Trapar-waves/vue-tailwind/release.yml)
-![Renovate](https://img.shields.io/badge/renovate-enabled-blue)
+[![npm version](https://img.shields.io/npm/v/@trapar-waves/vue-tailwind)](https://www.npmjs.com/package/@trapar-waves/vue-tailwind)
+[![npm downloads](https://img.shields.io/npm/dm/@trapar-waves/vue-tailwind)](https://www.npmjs.com/package/@trapar-waves/vue-tailwind)
+[![License](https://img.shields.io/github/license/Trapar-waves/vue-tailwind)](https://github.com/Trapar-waves/vue-tailwind/blob/main/LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/Trapar-waves/vue-tailwind)](https://github.com/Trapar-waves/vue-tailwind/commits/main)
+[![CI Status](https://img.shields.io/github/actions/workflow/status/Trapar-waves/vue-tailwind/release.yml?label=CI)](https://github.com/Trapar-waves/vue-tailwind/actions/workflows/release.yml)
+[![Renovate](https://img.shields.io/badge/renovate-enabled-blue)](https://renovatebot.com/)
 
----
+[English](../README.md) | [中文](/readme/README-CN.md) | [Русский язык](/readme/README-RU.md)
+
+> 迅速なフロントエンド開発のためのVue 3プロジェクトテンプレートで、Tailwind CSSと現代的な開発ツールが統合されています。
 
 [English](../README.md) | [中文](./README-CN.md) | [Русский язык](./README-RU.md)
 
-> Vue 3 と Tailwind CSS v4 を統合したモダンなフロントエンド開発テンプレート。Rsbuild、TypeScript、VueUse、Iconify サポート付き、迅速な UI 開発向け。
-
-![vue-tailwind hero](../assets/readme/hero.svg)
-
-![Features](../assets/readme/headers/features.svg)
-
-- **モダンフレームワーク：** Vue 3 をベースに、Composition API と `<script setup>` を活用したクリーンでリアクティブなコンポーネント開発。
-- **ユーティリティファーストのスタイリング：** Tailwind CSS v4（`tailwindcss`）と `@tailwindcss/postcss` を採用し、柔軟で迅速なスタイリングを実現しながら一貫性を維持。
-- **高速開発ワークフロー：** Rsbuild（`@rsbuild/core` と `@rsbuild/plugin-vue`）を使用し、最適化されたビルドと効率的な開発サーバー性能を実現。
-- **リアクティブユーティリティ：** `@vueuse/core` を統合し、状態、DOM、センサー管理のためのコア Vue 組み合わせユーティリティを提供。
-- **アイコンサポート：** `@iconify/json` と `@iconify/tailwind4` を含み、スケーラブルでカスタマイズ可能なアイコンを提供。
-- **型安全性：** TypeScript (v5.9.x) を活用し、コードの信頼性を向上させ、開発中に堅牢な型チェックを提供。
-- **コード品質：** ESLint と `@antfu/eslint-config` を含み、リントとベストプラクティスの適用を強制。
-- **Git Hooks：** `husky` と `lint-staged` を統合し、コミット前チェックを実行。
-
-![Tech Stack](../assets/readme/headers/tech-stack.svg)
-
-- **フレームワーク：** Vue 3（`vue`）
-- **スタイリング：** Tailwind CSS v4（`tailwindcss`）
-- **リアクティブユーティリティ：** VueUse（`@vueuse/core`）
-- **ビルドツール：** Rsbuild（`@rsbuild/core`）
-- **言語：** TypeScript (v5.9.x)
-- **CSS 処理：** PostCSS と `@tailwindcss/postcss`
-- **リント：** ESLint と `@antfu/eslint-config`
-- **アイコン：** Iconify（`@iconify/json`、`@iconify/tailwind4`）
-
-依存関係の完全なリストは [package.json](../package.json) を参照してください。
-
-![Getting Started](../assets/readme/headers/getting-started.svg)
-
-## 前提条件
-
-- Node.js（>= 18.x 推奨）
-- パッケージマネージャー（npm、yarn、または pnpm）
-
-### インストール
-
-1. テンプレートを使用して新しいプロジェクトを作成：
-
-   ```bash
-   pnpm create trapar-waves
-   ```
-
-2. プロジェクトディレクトリに移動し、依存関係をインストール：
-
-   ```bash
-   pnpm install
-   ```
-
-3. 開発サーバーを起動：
-
-   ```bash
-   pnpm dev
-   ```
-
-![Project Structure](../assets/readme/headers/project-structure.svg)
-
-```
-├── public/             # 静的アセット
-├── src/                # ソースコード
-│   ├── App.vue         # ルートアプリケーションコンポーネント
-│   ├── index.css       # グローバルスタイルと Tailwind インポート
-│   ├── index.ts        # エントリーポイント
-│   └── env.d.ts        # TypeScript 環境宣言
-├── rsbuild.config.ts   # Rsbuild 設定
-├── tsconfig.json       # TypeScript 設定
-├── eslint.config.js    # ESLint 設定
-└── package.json        # プロジェクトの依存関係とスクリプト
-```
+- **Vue 3**: Vueの最新機能を活用してユーザーインターフェースを構築。
+- **Tailwind CSS v4**: ユーティリティファーストのCSSフレームワークによる迅速なUI開発。
+- **TypeScript**: 強力な型付けでコード品質と開発者体験を向上。
+- **Rsbuild**: 現代的なWeb開発のための高速で効率的なビルドツール。
+- **@vueuse/core**: 基本的なVueコンポジションユーティリティのコレクション。
+- **Iconify 統合**: Tailwind CSSでIconifyアイコンを簡単に使用。
+- **ESLint & Antfu 設定**: コードスタイルとベストプラクティスの強制。
+- **PostCSS**: 最適なTailwind統合のための`@tailwindcss/postcss`を使用。
 
 ![Contributing](../assets/readme/headers/contributing.svg)
 
-コントリビュートを歓迎します！以下の手順に従ってコントリビュートしてください：
+- **フレームワーク**: [Vue 3](https://v3.vuejs.org/)
+- **スタイリング**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **状態管理**: [VueUse](https://vueuse.org/)
+- **ビルドツール**: [Rsbuild](https://rsbuild.dev/)
+- **言語**: [TypeScript](https://www.typescriptlang.org/)
+- **リンティング**: [ESLint](https://eslint.org/) と [Antfu's Config](https://github.com/antfu/eslint-config)
+- **アイコン**: [Iconify](https://iconify.design/) と [Tailwind プラグイン](https://docs.iconify.design/)
+
+依存関係の完全なリストは [package.json](./package.json) を参照してください。
+
+## 🚀 クイックスタート
+
+### 前提条件
+
+- Node.js (>= 18.x 推奨)
+- パッケージマネージャー (npm, yarn, または pnpm)
+
+```bash
+node -v
+npm -v # または yarn -v / pnpm -v
+```
+
+### プロジェクトの作成
+
+テンプレートを使用して新しいプロジェクトを作成:
+
+```bash
+pnpm create trapar-waves
+```
+
+### 依存関係のインストール
+
+プロジェクトディレクトリに移動して依存関係をインストール:
+
+```bash
+# npm を使用
+npm install
+
+# yarn を使用
+yarn install
+
+# pnpm を使用
+pnpm install
+```
+
+### 開発
+
+開発サーバーを起動:
+
+```bash
+# npm を使用
+npm run dev
+
+# yarn を使用
+yarn dev
+
+# pnpm を使用
+pnpm dev
+```
+
+### ビルド
+
+プロダクションビルドを作成:
+
+```bash
+# npm を使用
+npm run build
+
+# yarn を使用
+yarn build
+
+# pnpm を使用
+pnpm build
+```
+
+### プレビュー
+
+ローカルでプロダクションビルドをプレビュー:
+
+```bash
+# npm を使用
+npm run preview
+
+# yarn を使用
+yarn preview
+
+# pnpm を使用
+pnpm preview
+```
+
+## 🧪 リンティング
+
+ESLintでコードをチェック:
+
+```bash
+# npm を使用
+npm run lint
+
+# yarn を使用
+yarn lint
+
+# pnpm を使用
+pnpm lint
+```
+
+## 🤝 コントリビュート
+
+貢献は歓迎です！以下の方法で参加できます:
 
 1. リポジトリをフォーク
-2. 機能ブランチを作成（`git checkout -b feature/amazing-feature`）
-3. 変更をコミット（`git commit -m 'Add some amazing feature'`）
-4. ブランチにプッシュ（`git push origin feature/amazing-feature`）
-5. Pull Request を作成
+2. 機能ブランチを作成 (`git checkout -b feature/amazing-feature`)
+3. 変更をコミット (`git commit -m 'Add some amazing feature'`)
+4. ブランチにプッシュ (`git push origin feature/amazing-feature`)
+5. プルリクエストを開く
 
-![License](../assets/readme/headers/license.svg)
-
-MIT License © 2025 Trapar Waves
+コードがプロジェクトのスタイルガイドに従い、すべてのテストに通過することを確認してください。
 
 ## 👤 作者
 
-- **Rikka：** [admin@rikka.cc](mailto:admin@rikka.cc)
-- **GitHub プロフィール：** [Muromi-Rikka](https://github.com/Muromi-Rikka)
+**Rikka**
+
+- メール: [admin@rikka.cc](mailto:admin@rikka.cc)
+- GitHub: [Muromi-Rikka](https://github.com/Muromi-Rikka)
+
+## 📄 ライセンス
+
+このプロジェクトはMITライセンスの下でライセンスされています - 詳細は [LICENSE](./LICENSE) ファイルを参照してください。
 
 ## 🔗 リンク
 
-- **リポジトリ：** [https://github.com/Trapar-waves/vue-tailwind](https://github.com/Trapar-waves/vue-tailwind)
-- **Issues：** [https://github.com/Trapar-waves/vue-tailwind/issues](https://github.com/Trapar-waves/vue-tailwind/issues)
+- **リポジトリ**: [https://github.com/Trapar-waves/vue-tailwind](https://github.com/Trapar-waves/vue-tailwind)
+- **ホームページ**: [https://github.com/Trapar-waves/vue-tailwind](https://github.com/Trapar-waves/vue-tailwind)
+- **イシュー**: [https://github.com/Trapar-waves/vue-tailwind/issues](https://github.com/Trapar-waves/vue-tailwind/issues)

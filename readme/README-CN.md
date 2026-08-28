@@ -1,106 +1,159 @@
 # @trapar-waves/vue-tailwind
 
-![npm version](https://img.shields.io/npm/v/@trapar-waves/vue-tailwind)
-![npm dm](https://img.shields.io/npm/dm/@trapar-waves/vue-tailwind)
-![License](https://img.shields.io/github/license/Trapar-waves/vue-tailwind)
-![GitHub last commit](https://img.shields.io/github/last-commit/Trapar-waves/vue-tailwind)
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Trapar-waves/vue-tailwind/release.yml)
-![Renovate](https://img.shields.io/badge/renovate-enabled-blue)
+[![npm version](https://img.shields.io/npm/v/@trapar-waves/vue-tailwind)](https://www.npmjs.com/package/@trapar-waves/vue-tailwind)
+[![npm downloads](https://img.shields.io/npm/dm/@trapar-waves/vue-tailwind)](https://www.npmjs.com/package/@trapar-waves/vue-tailwind)
+[![License](https://img.shields.io/github/license/Trapar-waves/vue-tailwind)](https://github.com/Trapar-waves/vue-tailwind/blob/main/LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/Trapar-waves/vue-tailwind)](https://github.com/Trapar-waves/vue-tailwind/commits/main)
+[![CI Status](https://img.shields.io/github/actions/workflow/status/Trapar-waves/vue-tailwind/release.yml?label=CI)](https://github.com/Trapar-waves/vue-tailwind/actions/workflows/release.yml)
+[![Renovate](https://img.shields.io/badge/renovate-enabled-blue)](https://renovatebot.com/)
 
----
+[English](../README.md) | [日本語](/readme/README-JP.md) | [Русский язык](/readme/README-RU.md)
 
-[English](../README.md) | [日本語](./README-JP.md) | [Русский язык](./README-RU.md)
+> 一个用于快速前端开发的Vue 3项目模板，集成了Tailwind CSS和现代开发工具。
 
-> 一个现代化的前端开发模板，集成了 Vue 3 和 Tailwind CSS v4，配合 Rsbuild、TypeScript、VueUse 和 Iconify 支持，用于快速 UI 开发。
+## ✨ 特性
 
-![vue-tailwind hero](../assets/readme/hero.svg)
-
-![Features](../assets/readme/headers/features.svg)
-
-- **现代框架：** 基于 Vue 3 构建，利用组合式 API 和 `<script setup>` 实现简洁、响应式的组件开发。
-- **实用优先的样式：** 采用 Tailwind CSS v4（`tailwindcss`）和 `@tailwindcss/postcss`，实现灵活快速的样式开发，同时保持一致性。
-- **快速开发工作流：** 使用 Rsbuild（`@rsbuild/core` 和 `@rsbuild/plugin-vue`）进行优化构建和高效开发服务器性能。
-- **响应式工具：** 集成 `@vueuse/core`，提供状态、DOM 和传感器管理的核心 Vue 组合式工具集。
-- **图标支持：** 包含 `@iconify/json` 和 `@iconify/tailwind4`，提供可扩展和可定制的图标。
-- **类型安全：** 利用 TypeScript (v5.9.x) 提高代码可靠性，并在开发过程中提供强大的类型检查。
-- **代码质量：** 包含 ESLint 和 `@antfu/eslint-config` 进行代码检查和最佳实践强制执行。
-- **Git Hooks：** 集成 `husky` 和 `lint-staged` 进行提交前检查。
-
-![Tech Stack](../assets/readme/headers/tech-stack.svg)
-
-- **框架：** Vue 3（`vue`）
-- **样式：** Tailwind CSS v4（`tailwindcss`）
-- **响应式工具：** VueUse（`@vueuse/core`）
-- **构建工具：** Rsbuild（`@rsbuild/core`）
-- **语言：** TypeScript (v5.9.x)
-- **CSS 处理：** PostCSS 和 `@tailwindcss/postcss`
-- **代码检查：** ESLint 和 `@antfu/eslint-config`
-- **图标：** Iconify（`@iconify/json`、`@iconify/tailwind4`）
-
-查看 [package.json](../package.json) 获取完整的依赖列表。
-
-![Getting Started](../assets/readme/headers/getting-started.svg)
-
-## 前置条件
-
-- Node.js（推荐 >= 18.x）
-- 包管理器（npm、yarn 或 pnpm）
-
-### 安装
-
-1. 使用模板创建新项目：
-
-   ```bash
-   pnpm create trapar-waves
-   ```
-
-2. 导航到项目目录并安装依赖：
-
-   ```bash
-   pnpm install
-   ```
-
-3. 启动开发服务器：
-
-   ```bash
-   pnpm dev
-   ```
-
-![Project Structure](../assets/readme/headers/project-structure.svg)
-
-```
-├── public/             # 静态资源
-├── src/                # 源代码
-│   ├── App.vue         # 根应用组件
-│   ├── index.css       # 全局样式和 Tailwind 导入
-│   ├── index.ts        # 入口点
-│   └── env.d.ts        # TypeScript 环境声明
-├── rsbuild.config.ts   # Rsbuild 配置
-├── tsconfig.json       # TypeScript 配置
-├── eslint.config.js    # ESLint 配置
-└── package.json        # 项目依赖和脚本
-```
+- **Vue 3**: 利用Vue的最新特性构建用户界面。
+- **Tailwind CSS v4**: 实用优先的CSS框架，用于快速UI开发。
+- **TypeScript**: 强类型检查，提升代码质量和开发体验。
+- **Rsbuild**: 快速高效的现代Web开发构建工具。
+- **@vueuse/core**: 重要的Vue组合式API工具集。
+- **Iconify 集成**: 通过Tailwind CSS轻松使用Iconify图标。
+- **ESLint & Antfu 配置**: 强制代码风格和最佳实践。
+- **PostCSS**: 使用`@tailwindcss/postcss`实现最佳的Tailwind集成。
 
 ![Contributing](../assets/readme/headers/contributing.svg)
 
-欢迎贡献，非常感谢！请按照以下步骤贡献：
+- **框架**: [Vue 3](https://v3.vuejs.org/)
+- **样式**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **状态管理**: [VueUse](https://vueuse.org/)
+- **构建工具**: [Rsbuild](https://rsbuild.dev/)
+- **语言**: [TypeScript](https://www.typescriptlang.org/)
+- **代码检查**: [ESLint](https://eslint.org/) 与 [Antfu's Config](https://github.com/antfu/eslint-config)
+- **图标**: [Iconify](https://iconify.design/) 与 [Tailwind 插件](https://docs.iconify.design/)
 
-1. Fork 仓库
-2. 创建特性分支（`git checkout -b feature/amazing-feature`）
-3. 提交更改（`git commit -m 'Add some amazing feature'`）
-4. 推送到分支（`git push origin feature/amazing-feature`）
-5. 创建 Pull Request
+完整依赖列表参见 [package.json](./package.json)。
 
-![License](../assets/readme/headers/license.svg)
+## 🚀 快速开始
 
-MIT License © 2025 Trapar Waves
+### 前提条件
+
+- Node.js (推荐 >= 18.x)
+- 包管理器 (npm, yarn, 或 pnpm)
+
+```bash
+node -v
+npm -v # 或 yarn -v / pnpm -v
+```
+
+### 创建项目
+
+使用模板创建新项目:
+
+```bash
+pnpm create trapar-waves
+```
+
+### 安装依赖
+
+进入项目目录并安装依赖:
+
+```bash
+# 使用 npm
+npm install
+
+# 使用 yarn
+yarn install
+
+# 使用 pnpm
+pnpm install
+```
+
+### 开发
+
+启动开发服务器:
+
+```bash
+# 使用 npm
+npm run dev
+
+# 使用 yarn
+yarn dev
+
+# 使用 pnpm
+pnpm dev
+```
+
+### 构建
+
+创建生产构建:
+
+```bash
+# 使用 npm
+npm run build
+
+# 使用 yarn
+yarn build
+
+# 使用 pnpm
+pnpm build
+```
+
+### 预览
+
+本地预览生产构建:
+
+```bash
+# 使用 npm
+npm run preview
+
+# 使用 yarn
+yarn preview
+
+# 使用 pnpm
+pnpm preview
+```
+
+## 🧪 代码检查
+
+使用ESLint检查代码:
+
+```bash
+# 使用 npm
+npm run lint
+
+# 使用 yarn
+yarn lint
+
+# 使用 pnpm
+pnpm lint
+```
+
+## 🤝 贡献
+
+欢迎贡献！您可以通过以下方式参与:
+
+1. Fork 本仓库
+2. 创建功能分支 (`git checkout -b feature/amazing-feature`)
+3. 提交更改 (`git commit -m 'Add some amazing feature'`)
+4. 推送到分支 (`git push origin feature/amazing-feature`)
+5. 发起 Pull Request
+
+请确保您的代码遵循项目风格指南并通过所有测试。
 
 ## 👤 作者
 
-- **Rikka：** [admin@rikka.cc](mailto:admin@rikka.cc)
-- **GitHub 主页：** [Muromi-Rikka](https://github.com/Muromi-Rikka)
+**Rikka**
+
+- 邮箱: [admin@rikka.cc](mailto:admin@rikka.cc)
+- GitHub: [Muromi-Rikka](https://github.com/Muromi-Rikka)
+
+## 📄 许可证
+
+本项目采用 MIT 许可证 - 详情见 [LICENSE](./LICENSE) 文件。
 
 ## 🔗 链接
 
-- **仓库：** [https://github.com/Trapar-waves/vue-tailwind](https://github.com/Trapar-waves/vue-tailwind)
-- **Issues：** [https://github.com/Trapar-waves/vue-tailwind/issues](https://github.com/Trapar-waves/vue-tailwind/issues)
+- **仓库**: [https://github.com/Trapar-waves/vue-tailwind](https://github.com/Trapar-waves/vue-tailwind)
+- **主页**: [https://github.com/Trapar-waves/vue-tailwind](https://github.com/Trapar-waves/vue-tailwind)
+- **问题**: [https://github.com/Trapar-waves/vue-tailwind/issues](https://github.com/Trapar-waves/vue-tailwind/issues)

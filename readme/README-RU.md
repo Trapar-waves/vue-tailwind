@@ -1,106 +1,159 @@
 # @trapar-waves/vue-tailwind
 
-![npm version](https://img.shields.io/npm/v/@trapar-waves/vue-tailwind)
-![npm dm](https://img.shields.io/npm/dm/@trapar-waves/vue-tailwind)
-![License](https://img.shields.io/github/license/Trapar-waves/vue-tailwind)
-![GitHub last commit](https://img.shields.io/github/last-commit/Trapar-waves/vue-tailwind)
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Trapar-waves/vue-tailwind/release.yml)
-![Renovate](https://img.shields.io/badge/renovate-enabled-blue)
+[![npm version](https://img.shields.io/npm/v/@trapar-waves/vue-tailwind)](https://www.npmjs.com/package/@trapar-waves/vue-tailwind)
+[![npm downloads](https://img.shields.io/npm/dm/@trapar-waves/vue-tailwind)](https://www.npmjs.com/package/@trapar-waves/vue-tailwind)
+[![License](https://img.shields.io/github/license/Trapar-waves/vue-tailwind)](https://github.com/Trapar-waves/vue-tailwind/blob/main/LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/Trapar-waves/vue-tailwind)](https://github.com/Trapar-waves/vue-tailwind/commits/main)
+[![CI Status](https://img.shields.io/github/actions/workflow/status/Trapar-waves/vue-tailwind/release.yml?label=CI)](https://github.com/Trapar-waves/vue-tailwind/actions/workflows/release.yml)
+[![Renovate](https://img.shields.io/badge/renovate-enabled-blue)](https://renovatebot.com/)
 
----
+[English](../README.md) | [中文](/readme/README-CN.md) | [日本語](/readme/README-JP.md)
+
+> Шаблон проекта Vue 3 с интеграцией Tailwind CSS и современными инструментами разработки для быстрой фронтенд-разработки.
 
 [English](../README.md) | [中文](./README-CN.md) | [日本語](./README-JP.md)
 
-> Современный шаблон фронтенд-разработки, интегрирующий Vue 3 и Tailwind CSS v4, с поддержкой Rsbuild, TypeScript, VueUse и Iconify для быстрой разработки UI.
-
-![vue-tailwind hero](../assets/readme/hero.svg)
-
-![Features](../assets/readme/headers/features.svg)
-
-- **Современный фреймворк:** Построен на Vue 3, используя Composition API и `<script setup>` для чистой, реактивной разработки компонентов.
-- **Утилитарный подход к стилям:** Использует Tailwind CSS v4 (`tailwindcss`) вместе с `@tailwindcss/postcss`, обеспечивая гибкую и быструю разработку стилей с сохранением一致性.
-- **Быстрый рабочий процесс разработки:** Использует Rsbuild (`@rsbuild/core` и `@rsbuild/plugin-vue`) для оптимизированных сборок и эффективной работы сервера разработки.
-- **Реактивные утилиты:** Интегрирует `@vueuse/core`, коллекцию основных утилит Vue Composition для управления состоянием, DOM и сенсорами.
-- **Поддержка иконок:** Включает `@iconify/json` и `@iconify/tailwind4` для масштабируемых и настраиваемых иконок.
-- **Типобезопасность:** Использует TypeScript (v5.9.x) для повышения надежности кода и обеспечения строгой проверки типов во время разработки.
-- **Качество кода:** Включает ESLint с `@antfu/eslint-config` для линтинга и применения лучших практик.
-- **Git Hooks:** Интегрированы `husky` и `lint-staged` для проверок перед коммитом.
-
-![Tech Stack](../assets/readme/headers/tech-stack.svg)
-
-- **Фреймворк:** Vue 3 (`vue`)
-- **Стилизация:** Tailwind CSS v4 (`tailwindcss`)
-- **Реактивные утилиты:** VueUse (`@vueuse/core`)
-- **Инструмент сборки:** Rsbuild (`@rsbuild/core`)
-- **Язык:** TypeScript (v5.9.x)
-- **Обработка CSS:** PostCSS и `@tailwindcss/postcss`
-- **Линтинг:** ESLint и `@antfu/eslint-config`
-- **Иконки:** Iconify (`@iconify/json`, `@iconify/tailwind4`)
-
-Полный список зависимостей смотрите в [package.json](../package.json).
-
-![Getting Started](../assets/readme/headers/getting-started.svg)
-
-## Предварительные требования
-
-- Node.js (рекомендуется >= 18.x)
-- Менеджер пакетов (npm, yarn или pnpm)
-
-### Установка
-
-1. Создайте новый проект с помощью шаблона:
-
-   ```bash
-   pnpm create trapar-waves
-   ```
-
-2. Перейдите в директорию проекта и установите зависимости:
-
-   ```bash
-   pnpm install
-   ```
-
-3. Запустите сервер разработки:
-
-   ```bash
-   pnpm dev
-   ```
-
-![Project Structure](../assets/readme/headers/project-structure.svg)
-
-```
-├── public/             # Статические ресурсы
-├── src/                # Исходный код
-│   ├── App.vue         # Корневой компонент приложения
-│   ├── index.css       # Глобальные стили и импорты Tailwind
-│   ├── index.ts        # Точка входа
-│   └── env.d.ts        # Объявления среды TypeScript
-├── rsbuild.config.ts   # Конфигурация Rsbuild
-├── tsconfig.json       # Конфигурация TypeScript
-├── eslint.config.js    # Конфигурация ESLint
-└── package.json        # Зависимости и скрипты проекта
-```
+- **Vue 3**: Используйте последние возможности Vue для создания пользовательских интерфейсов.
+- **Tailwind CSS v4**: CSS-фреймворк с подходом utility-first для быстрой разработки UI.
+- **TypeScript**: Строгая типизация для лучшего качества кода и опыта разработки.
+- **Rsbuild**: Быстрый и эффективный инструмент сборки для современной веб-разработки.
+- **@vueuse/core**: Коллекция основных утилит композиции Vue.
+- **Интеграция Iconify**: Легко используйте иконки из Iconify с Tailwind CSS.
+- **ESLint & Конфигурация Antfu**: Принудительное соблюдение стиля кода и лучших практик.
+- **PostCSS**: Обработка CSS с `@tailwindcss/postcss` для оптимальной интеграции Tailwind.
 
 ![Contributing](../assets/readme/headers/contributing.svg)
 
-Участие приветствуется и высоко ценится! Пожалуйста, следуйте этим шагам для вклада:
+- **Фреймворк**: [Vue 3](https://v3.vuejs.org/)
+- **Стилизация**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Управление состоянием**: [VueUse](https://vueuse.org/)
+- **Инструмент сборки**: [Rsbuild](https://rsbuild.dev/)
+- **Язык**: [TypeScript](https://www.typescriptlang.org/)
+- **Линтинг**: [ESLint](https://eslint.org/) с [конфигурацией Antfu](https://github.com/antfu/eslint-config)
+- **Иконки**: [Iconify](https://iconify.design/) с [плагином Tailwind](https://docs.iconify.design/)
 
-1. Fork репозиторий
-2. Создайте ветку для новой функции (`git checkout -b feature/amazing-feature`)
+Полный список зависимостей см. в файле [package.json](./package.json).
+
+## 🚀 Быстрый старт
+
+### Предварительные требования
+
+- Node.js (>= 18.x рекомендуется)
+- Менеджер пакетов (npm, yarn или pnpm)
+
+```bash
+node -v
+npm -v # или yarn -v / pnpm -v
+```
+
+### Создание проекта
+
+Создайте новый проект с использованием шаблона:
+
+```bash
+pnpm create trapar-waves
+```
+
+### Установка зависимостей
+
+Перейдите в каталог проекта и установите зависимости:
+
+```bash
+# С использованием npm
+npm install
+
+# С использованием yarn
+yarn install
+
+# С использованием pnpm
+pnpm install
+```
+
+### Разработка
+
+Запустите сервер разработки:
+
+```bash
+# С использованием npm
+npm run dev
+
+# С использованием yarn
+yarn dev
+
+# С использованием pnpm
+pnpm dev
+```
+
+### Сборка
+
+Создайте производственную сборку:
+
+```bash
+# С использованием npm
+npm run build
+
+# С использованием yarn
+yarn build
+
+# С использованием pnpm
+pnpm build
+```
+
+### Предварительный просмотр
+
+Локальный предварительный просмотр производственной сборки:
+
+```bash
+# С использованием npm
+npm run preview
+
+# С использованием yarn
+yarn preview
+
+# С использованием pnpm
+pnpm preview
+```
+
+## 🧪 Линтинг
+
+Проверьте код с помощью ESLint:
+
+```bash
+# С использованием npm
+npm run lint
+
+# С использованием yarn
+yarn lint
+
+# С использованием pnpm
+pnpm lint
+```
+
+## 🤝 Участие в разработке
+
+Вклад приветствуется! Вот как вы можете поучаствовать:
+
+1. Сделайте форк репозитория
+2. Создайте ветку с функцией (`git checkout -b feature/amazing-feature`)
 3. Зафиксируйте изменения (`git commit -m 'Add some amazing feature'`)
 4. Отправьте изменения в ветку (`git push origin feature/amazing-feature`)
 5. Откройте Pull Request
 
-![License](../assets/readme/headers/license.svg)
-
-MIT License © 2025 Trapar Waves
+Убедитесь, что ваш код соответствует руководящим принципам по стилю проекта и проходит все тесты.
 
 ## 👤 Автор
 
-- **Rikka:** [admin@rikka.cc](mailto:admin@rikka.cc)
-- **Профиль GitHub:** [Muromi-Rikka](https://github.com/Muromi-Rikka)
+**Rikka**
+
+- Email: [admin@rikka.cc](mailto:admin@rikka.cc)
+- GitHub: [Muromi-Rikka](https://github.com/Muromi-Rikka)
+
+## 📄 Лицензия
+
+Этот проект лицензирован по лицензии MIT - см. файл [LICENSE](./LICENSE) для получения подробной информации.
 
 ## 🔗 Ссылки
 
-- **Репозиторий:** [https://github.com/Trapar-waves/vue-tailwind](https://github.com/Trapar-waves/vue-tailwind)
-- **Issues:** [https://github.com/Trapar-waves/vue-tailwind/issues](https://github.com/Trapar-waves/vue-tailwind/issues)
+- **Репозиторий**: [https://github.com/Trapar-waves/vue-tailwind](https://github.com/Trapar-waves/vue-tailwind)
+- **Домашняя страница**: [https://github.com/Trapar-waves/vue-tailwind](https://github.com/Trapar-waves/vue-tailwind)
+- **Проблемы**: [https://github.com/Trapar-waves/vue-tailwind/issues](https://github.com/Trapar-waves/vue-tailwind/issues)
