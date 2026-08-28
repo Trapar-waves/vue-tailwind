@@ -2,7 +2,7 @@
   "name": "@trapar-waves/vue-tailwind",
   "type": "module",
   "version": "1.2.0",
-  "packageManager": "pnpm@10.33.2",
+  "packageManager": "pnpm@11.24.0",
   "description": "A Vue 3 project template integrated with Tailwind CSS for rapid frontend development",
   "author": {
     "email": "admin@rikka.cc",
@@ -39,24 +39,26 @@
     "postinstall": "husky"
   },
   "dependencies": {
-    "@vueuse/core": "^14.2.1",
-    "vue": "^3.5.33"
+    "@vueuse/core": "^14.4.0",
+    "vue": "^3.5.42"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^8.2.0",
-    "@iconify/json": "^2.2.467",
+    "@iconify/json": "^2.2.521",
     "@iconify/tailwind4": "^1.2.3",
-    "@rsbuild/core": "^2.0.1",
-    "@rsbuild/plugin-vue": "^1.2.7",
-    "@rsdoctor/rspack-plugin": "^1.5.9",
-    "@tailwindcss/postcss": "^4.2.4",
+    "@renton/eslint-config": "^1.0.0",
+    "@renton/eslint-config-vue": "^1.0.0",
+    "@rsbuild/core": "^2.2.1",
+    "@rsbuild/plugin-vue": "^2.0.1",
+    "@rsdoctor/rspack-plugin": "^1.6.3",
+    "@tailwindcss/postcss": "^4.3.3",
     "cross-env": "^10.1.0",
-    "eslint": "^10.2.1",
+    "eslint": "^10.9.1",
     "eslint-plugin-format": "^2.0.1",
+    "eslint-plugin-perfectionist": "^5.10.1",
     "husky": "^9.1.7",
-    "lint-staged": "^16.4.0",
-    "tailwindcss": "^4.2.4",
+    "lint-staged": "^17.4.1",
+    "tailwindcss": "^4.3.3",
     "typescript": "^6.0.3",
-    "unplugin-turbo-console": "^2.3.1"
+    "unplugin-turbo-console": "^2.3.3"
   }
 }
