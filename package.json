@@ -52,7 +52,7 @@
     "@rsdoctor/rspack-plugin": "^1.6.3",
     "@tailwindcss/postcss": "^4.3.3",
     "cross-env": "^10.1.0",
-    "eslint": "^10.9.1",
+    "eslint": "^10.10.0",
     "eslint-plugin-format": "^2.0.1",
     "eslint-plugin-perfectionist": "^5.10.1",
     "husky": "^9.1.7",
