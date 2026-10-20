@@ -1,9 +1,6 @@
 minimumReleaseAge: 0
-
-shellEmulator: true
-
 trustPolicy: off
-
+shellEmulator: true
 
 allowBuilds:
   core-js: false
