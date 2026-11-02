@@ -2,6 +2,7 @@
 minimumReleaseAge: 0
 minimumReleaseAgeExcludePrune: true
 trustPolicy: no-downgrade
+trustPolicyExcludePrune: true
 shellEmulator: true
 
 allowBuilds:
