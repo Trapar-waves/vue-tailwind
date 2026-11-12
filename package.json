@@ -43,7 +43,7 @@
     "vue": "^3.5.45"
   },
   "devDependencies": {
-    "@iconify/json": "^2.2.555",
+    "@iconify/json": "^2.2.556",
     "@iconify/tailwind4": "^1.2.3",
     "@renton/eslint-config": "^2.0.0",
     "@renton/eslint-config-vue": "^2.0.0",
